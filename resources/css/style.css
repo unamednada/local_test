@@ -58,6 +58,7 @@ h2 {
 }
 
 p {
+    font-size: 22px;
     text-align: justify;
     margin: 20px 20px;
     padding-bottom: 40px;
@@ -65,16 +66,23 @@ p {
     width: 50%;
 }
 
+h3 {
+    font-size: 18px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 #skills {
     background-image: url(https://previews.123rf.com/images/szakalikus/szakalikus1612/szakalikus161201291/67976768-numbers-on-computer-screen-binary-code-closeup-photography-with-visible-pixels-.jpg);
     background-size: cover;
-    padding-bottom: 32px;
-    padding-top: 32px;
+    padding-bottom: 132px;
+    padding-top: 120px;
+
 }
 
 #skills h2 {
     background-color: white;
-    padding: 10px;
+    padding: 20px;
     width: 100%;
     border-radius: 12px;
     margin: 0px 20px;
@@ -87,7 +95,7 @@ p {
     background-color: blueviolet;
     width: 220px;
     border-radius: 22px;
-    margin: 10px 10px;
+    margin: 40px 10px;
     color: white;
     display: inline-block;
 }
