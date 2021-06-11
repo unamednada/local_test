@@ -5,7 +5,7 @@ html, body {
 }
 
 header {
-    background-color: rgb(131, 212, 64);
+    background-color: white;
     position: fixed;
     width: 100%;
     height: auto;
@@ -34,6 +34,7 @@ img {
     margin-top: 180px;
     border-radius: 18px;
     border: solid 4px blueviolet;
+    width: 180px;
 }
 
 h1 {
@@ -72,21 +73,21 @@ p {
 }
 
 #skills h2 {
-    background-color: violet;
+    background-color: white;
     padding: 10px;
-    width: 50%;
+    width: 100%;
     border-radius: 12px;
-    margin-left: 380px;
+    margin: 0px 20px;
 }
 
 #skills li {
     list-style: none;
-    padding: 40px 40px;   
+    padding: 20px 20px;   
     font-size: 24px;
     background-color: blueviolet;
-    width: 10%;
+    width: 220px;
     border-radius: 22px;
-    margin: 10px 120px;
+    margin: 10px 10px;
     color: white;
     display: inline-block;
 }
