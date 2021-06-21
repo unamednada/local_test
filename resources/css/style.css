@@ -1,20 +1,23 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
   background-color: white;
   position: fixed;
   width: 100%;
-  border: 2px solid purple;
+  border: 2px solid black;
   z-index: 999;
+  background-color: rgb(199, 183, 241);
 }
 
 header li {
   display: inline-block;
   list-style: none;
   margin: 0 20px;
+  font-weight: 600;
 }
 
 a {
@@ -34,6 +37,7 @@ nav.right {
   display: inline-block;
   max-width: 40%;
   margin: 0 50px;
+  vertical-align: text-top;
 }
 
 main {
@@ -47,5 +51,24 @@ img {
 
 .about-me {
   text-align: center;
-  text-justify: auto;
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-size: 50px;
+  color: purple;
+  border: 4px solid black;
+  padding: 20px 20px;
+  border-radius: 12px;
+  background-color: rgb(199, 183, 241);
+}
+
+p {
+  font-style: italic;
+  color: purple;
+  font-weight: 600px;
+}
+
+.skills {
+  background-color: rgb(199, 183, 241);;
 }
