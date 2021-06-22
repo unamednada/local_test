@@ -15,7 +15,6 @@ header {
 
 header li {
   display: inline-block;
-  list-style: none;
   margin: 0 20px;
   font-weight: 600;
 }
@@ -25,11 +24,11 @@ a {
   color: purple;
 }
 
-nav.left {
+.left {
   float: left;
 }
 
-nav.right {
+.right {
   float: right;
 }
 
@@ -70,5 +69,60 @@ p {
 }
 
 .skills {
-  background-color: rgb(199, 183, 241);;
+  background-color: rgb(199, 183, 241);
+  text-align: center;
+  padding: 50px 0;
+  height: 700px;
 }
+
+.skills div {
+  display: inline-block;
+  margin: 0 50px;
+}
+
+.skills h2 {
+  font-size: 50px;
+  color: purple;
+  border: 4px solid black;
+  padding: 20px 20px;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.head {
+  font-size: 35px;
+}
+
+.hard {
+  font-family: 'Courier New', Courier, monospace;
+  color: blue;
+  letter-spacing: 2px;
+  background-color: black;
+  padding: 10px 5px;
+}
+
+.skills .left {
+  margin-left: 200px;
+}
+
+li {
+  list-style: none;
+}
+
+.skills li {
+  margin: 20px 0;
+}
+
+.skills .right {
+  margin-right: 200px;
+}
+
+.soft {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: antiquewhite;
+  border-radius: 12px;
+  padding: 10px 5px;
+  letter-spacing: 2px;
+}
+
+
