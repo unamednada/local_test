@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -11,6 +11,7 @@ header {
   border: 2px solid black;
   z-index: 999;
   background-color: rgb(199, 183, 241);
+  padding: 20px 0;
 }
 
 header li {
@@ -36,7 +37,7 @@ a {
   display: inline-block;
   max-width: 40%;
   margin: 0 50px;
-  vertical-align: text-top;
+  vertical-align: middle;
 }
 
 main {
@@ -60,12 +61,14 @@ h1 {
   padding: 20px 20px;
   border-radius: 12px;
   background-color: rgb(199, 183, 241);
+  margin-bottom: 20px;
 }
 
 p {
   font-style: italic;
   color: purple;
   font-weight: 600px;
+  margin: 20px 0;
 }
 
 .skills {
@@ -87,6 +90,7 @@ p {
   padding: 20px 20px;
   border-radius: 12px;
   background-color: white;
+  margin: 0 30px 40px 30px;
 }
 
 .head {
