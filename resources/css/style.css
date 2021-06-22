@@ -81,6 +81,7 @@ p {
 .skills div {
   display: inline-block;
   margin: 0 50px;
+  max-width: 600px;
 }
 
 .skills h2 {
@@ -106,7 +107,7 @@ p {
 }
 
 .skills .left {
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 li {
@@ -118,7 +119,7 @@ li {
 }
 
 .skills .right {
-  margin-right: 200px;
+  margin-right: 100px;
 }
 
 .soft {
@@ -133,7 +134,9 @@ li {
   text-align: left;
 }
 
-.skills li:nth-of-type(n + 6) {
-  text-align: right;
+.skills img {
+  border-radius: 50%;
+  height: 200px;
+  margin-top: 50px;
 }
 
