@@ -122,7 +122,14 @@ li {
   background-color: antiquewhite;
   border-radius: 12px;
   padding: 10px 5px;
-  letter-spacing: 2px;
 }
 
+.skills li {
+  font-size: 20px;
+  text-align: left;
+}
+
+.skills li:nth-of-type(n + 6) {
+  text-align: right;
+}
 
