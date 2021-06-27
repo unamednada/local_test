@@ -140,3 +140,20 @@ li {
   margin-top: 50px;
 }
 
+.left li,
+.right li {
+  text-align: center;
+}
+
+footer {
+  height: 100px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+footer h2 {
+  margin: 20px 0;
+}
+
+
