@@ -295,7 +295,7 @@ footer {
 }
 
 footer h4 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 footer p {
@@ -306,4 +306,5 @@ footer p {
 footer a {
   font-size: 20px;
   font-style: italic;
+  color:#2D3047;
 }
