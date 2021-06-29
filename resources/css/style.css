@@ -122,7 +122,7 @@ p a:hover {
 }
 
 .aside {
-  border-top: 1px solid #2D3047;
+  border-top: 1.5px solid #2D3047;
 }
 
 .aside p {
@@ -132,5 +132,40 @@ p a:hover {
   font-size: 14px;
 }
 
+#skills {
+  background-color: rgba(255, 174, 3, 1);
+  border-top: 1.5px solid #93b7be;
+  color:#2D3047;
+  text-align: center;
+}
 
+#skills h3 {
+  font-size: 45px;
+  margin: 3%;
+}
+
+#main-skills article{
+  display: inline-block;
+  max-width: 20%;
+  margin: 4%;
+  vertical-align: middle;
+  background-color: #93b7be;
+  padding: 2%;
+}
+
+.mini-article h4 {
+  font-size: 22px;
+  margin-bottom: 2%;
+}
+
+.mini-article p {
+  font-size: 14px;
+  margin-bottom: 1%;
+}
+
+.mini-article a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #a799b7;
+}
 
