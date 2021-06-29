@@ -302,3 +302,8 @@ footer p {
   float: right;
   margin-right: 25%;
 }
+
+footer a {
+  font-size: 20px;
+  font-style: italic;
+}
