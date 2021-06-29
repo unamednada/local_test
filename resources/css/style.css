@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
 
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0px;
   padding: 0px;
   font-family: 'Times New Roman', Times, serif;
@@ -56,6 +56,24 @@ main {
 
 #introduction .fixed-height {
   display: flex;
+  justify-content: space-between;
+  padding: 5%;
 }
+
+#introduction h1 {
+  font-size: 100px;
+  margin: 80px auto 40px auto;
+}
+
+.profile {
+  border-radius: 20%;
+}
+
+h2.welcome {
+  font-size: 70px;
+  align-self: center;
+}
+
+
 
 
