@@ -83,7 +83,7 @@ h2.welcome {
 }
 
 img.profile {
-  max-height: 60%;
+  max-height: 70%;
   align-self: center;
   border-radius: 20%;
 }
@@ -172,5 +172,16 @@ p a:hover, .mini-article a:hover {
   text-decoration: none;
   color: rgba(255, 174, 3, 1);
   font-weight: 600;
+}
+
+#projects a {
+  text-decoration: none;
+  color:rgba(255, 174, 3, 1);
+}
+
+#projects li {
+  display: inline-block;
+  font-size: 20px;
+  margin: 2%;
 }
 
