@@ -64,8 +64,11 @@ main {
 
 #introduction h1 {
   font-size: 100px;
-  margin: 40px 0px;
   letter-spacing: 4px;
+  background-color: #93b7be;
+  padding: 4% 0;
+  color: #2D3047;
+  border-bottom: 1.5px solid rgba(255, 174, 3, 1);
 }
 
 h2.welcome {
@@ -117,7 +120,7 @@ p a {
   color: rgba(255, 174, 3, 1);
 }
 
-p a:hover {
+p a:hover, .mini-article a:hover {
   color: #048a81;
 }
 
@@ -149,8 +152,9 @@ p a:hover {
   max-width: 20%;
   margin: 4%;
   vertical-align: middle;
-  background-color: #93b7be;
+  background-color: #a799b7;
   padding: 2%;
+  border-radius: 20px;
 }
 
 .mini-article h4 {
@@ -166,6 +170,7 @@ p a:hover {
 .mini-article a {
   font-size: 16px;
   text-decoration: none;
-  color: #a799b7;
+  color: rgba(255, 174, 3, 1);
+  font-weight: 600;
 }
 
