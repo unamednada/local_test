@@ -44,7 +44,7 @@ main {
   position: relative;
   top: 40px;
   background-color: #2D3047;
-  color: #93B7BE
+  color: #93B7BE;
 }
 
 #introduction {
@@ -58,11 +58,13 @@ main {
   display: flex;
   justify-content: space-around;
   padding: 5%;
+  background-color: #93B7BE;;
 }
 
 #introduction h1 {
   font-size: 100px;
-  margin: 80px auto 40px auto;
+  margin: 40px auto;
+  letter-spacing: 4px;
 }
 
 .profile {
@@ -72,6 +74,7 @@ main {
 h2.welcome {
   font-size: 70px;
   align-self: center;
+  color:#2D3047;
 }
 
 .middle {
