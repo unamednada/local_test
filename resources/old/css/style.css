@@ -1,159 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* border: 1px solid red; */
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-header {
-  background-color: white;
+header.navigation {
   position: fixed;
+  z-index: 1;
+  background-color: rgba(255, 174, 3, 1);
+  top: 0;
   width: 100%;
-  border: 2px solid black;
-  z-index: 999;
-  background-color: rgb(199, 183, 241);
-  padding: 20px 0;
-}
-
-header li {
-  display: inline-block;
-  margin: 0 20px;
-  font-weight: 600;
-}
-
-a {
-  text-decoration: none;
-  color: purple;
+  height: 40px;
+  border-bottom: 1.5px solid #2D3047;
 }
 
 .left {
-  float: left;
+  position: absolute;
+  left: 0px;
+  
 }
 
 .right {
-  float: right;
+  position: absolute;
+  right: 0px;
 }
 
-.about-me div {
+.navigation li {
   display: inline-block;
-  max-width: 40%;
-  margin: 0 50px;
-  vertical-align: middle;
+  margin: 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #2D3047;
+  font-size: 18px;
+  font-weight: 600;
+  /* font-family: 'Roboto'; */
 }
 
 main {
-  top: 100px;
   position: relative;
+  top: 40px;
+  background-color: #2D3047;
+  color: rgba(255, 174, 3, 1);
 }
 
-img {
-  border-radius: 50%;
-}
-
-.about-me {
+#introduction {
+  vertical-align: middle;
   text-align: center;
-  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
-h1 {
-  font-size: 50px;
-  color: purple;
-  border: 4px solid black;
-  padding: 20px 20px;
+.fixed-height {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+#introduction h1 {
+  font-size: 100px;
+  letter-spacing: 4px;
+  background-color: #a799b7;
+  padding: 4% 0;
+  color: #2D3047;
+  border-bottom: 1.5px solid rgba(255, 174, 3, 1);
+}
+
+h2.welcome {
+  font-size: 80px;
+  align-self: center;
+  color: #a799b7;
+  letter-spacing: 3px;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img.profile {
+  max-height: 70%;
+  align-self: center;
+  border-radius: 20%;
+}
+
+#introduction .image-container {
+  background-color: rgba(255, 174, 3, 1);
+  border-radius: 20%;
+}
+
+#intro-text {
+  background-color: #a799b7;
+  display: flex;
+  flex-direction: column;
+  border-top: 1.5px solid rgba(255, 174, 3, 1);
+}
+
+#introduction p {
+  color: #a799b7;
+  max-width: 40%;
+  background-color: #2D3047;
+  letter-spacing: 2px;
   border-radius: 12px;
-  background-color: rgb(199, 183, 241);
-  margin-bottom: 20px;
+  margin: 5% auto;
 }
 
-p {
-  font-style: italic;
-  color: purple;
-  font-weight: 600px;
-  margin: 20px 0;
+.fixed-height p {
+  padding: 4%;
+  font-size: 18px;
+  
 }
 
-.skills {
-  background-color: rgb(199, 183, 241);
+p a {
+  text-decoration: none;
+  color: rgba(255, 174, 3, 1);
+}
+
+.aside {
+  border-top: 1.5px solid #2D3047;
+}
+
+.aside p {
+  margin: 0px;
+  min-width: 87%;
+  padding: 1%;
+  font-size: 14px;
+}
+
+#skills {
+  background-color: rgba(255, 174, 3, 1);
+  border-top: 1.5px solid #93b7be;
+  color:#2D3047;
   text-align: center;
-  padding: 50px 0;
-  height: 700px;
+  padding: 5% 0px;
 }
 
-.skills div {
+#skills h3 {
+  font-size: 45px;
+  margin: 3%;
+}
+
+#main-skills article{
   display: inline-block;
-  margin: 0 50px;
-  max-width: 600px;
+  max-width: 20%;
+  margin: 4%;
+  vertical-align: middle;
+  background-color: #a799b7;
+  padding: 2%;
+  border-radius: 20px;
 }
 
-.skills h2 {
-  font-size: 50px;
-  color: purple;
-  border: 4px solid black;
-  padding: 20px 20px;
-  border-radius: 12px;
-  background-color: white;
-  margin: 0 30px 40px 30px;
+.mini-article h4 {
+  font-size: 22px;
+  margin-bottom: 2%;
 }
 
-.head {
+.mini-article p {
+  font-size: 14px;
+  margin-bottom: 1%;
+}
+
+.mini-article a {
+  font-size: 16px;
+  text-decoration: none;
+  color: rgba(255, 174, 3, 1);
+  font-weight: 600;
+}
+
+#projects a {
+  text-decoration: none;
+  color:rgba(255, 174, 3, 1);
+  letter-spacing: 1px;
+}
+
+#projects li {
+  display: inline-block;
+  font-size: 20px;
+  margin: 2%;
+}
+
+#projects {
+  text-align: center;
+  padding: 5% 0px;
+  border-top: 1.5px solid #048a81;
+}
+
+#projects h3 {
+  font-size: 45px;
+  margin: 3%;
+}
+
+img.logo {
+  border-radius: 50%;
+  height: 100px;
+  display: block;
+  margin: 20px auto;
+}
+
+a:hover {
+  color: #048a81 !important;
+  font-weight: 700;
+}
+
+#about-me {
+  background-color: #048a81;
+  border-top: 1.5px solid #a799b7;
+  text-align: center;
+  padding: 5% 0px;
+}
+
+#about-me h3 {
+  font-size: 45px;
+  margin: 3%;
+}
+
+#about-me article {
+  display: inline-block;
+  max-width: 20%;
+  vertical-align: middle;
+  margin: 5% 2%;
+  background-color: #2D3047;
+  padding: 3%;
+  border-radius: 20px;
+}
+
+.paragraph-article h4 {
+  font-size: 25px;
+  margin: 5%;
+}
+
+.paragraph-article p {
+  font-size: 18px;
+  font-style: italic;
+}
+
+#contact {
+  background-color: rgba(255, 174, 3, 1);
+  color:#048a81;
+  text-align: center;
+  padding: 5% 10%;
+  border-top: 1.5px solid #2D3047;
+}
+
+#contact h4 {
   font-size: 35px;
 }
 
-.hard {
-  font-family: 'Courier New', Courier, monospace;
-  color: blue;
-  letter-spacing: 2px;
-  background-color: black;
-  padding: 10px 5px;
+#contact p{
+  margin: 2% auto;
+  color:#2D3047;
+  max-width: 50%;
 }
 
-.skills .left {
-  margin-left: 100px;
+#contact a {
+  color:#a799b7;
+  text-decoration: none;
 }
 
-li {
+#contact li {
   list-style: none;
 }
 
-.skills li {
-  margin: 20px 0;
+h5 {
+  font-size: 16px;
+  margin-bottom: 1%;
 }
 
-.skills .right {
-  margin-right: 100px;
-}
-
-.soft {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: antiquewhite;
-  border-radius: 12px;
-  padding: 10px 5px;
-}
-
-.skills li {
-  font-size: 20px;
-  text-align: left;
-}
-
-.skills img {
-  border-radius: 50%;
-  height: 200px;
-  margin-top: 50px;
-}
-
-.left li,
-.right li {
+#hobbies {
+  background-color: #048a81;
+  max-width: 50%;
   text-align: center;
+  margin: 5% auto;
+  padding: 7%;
+  border-radius: 30px;
+}
+
+#hobbies h4 {
+  font-size: 35px;
+}
+
+#hobbies p {
+  margin: 2%;
 }
 
 footer {
-  height: 100px;
-  background-color: black;
-  color: white;
-  padding: 20px;
+  background-color: #a799b7;
+  color:#048a81;
+  padding: 2%;
 }
 
-footer h2 {
-  margin: 20px 0;
+footer h4 {
+  font-size: 25px;
 }
 
+footer p {
+  float: right;
+  margin-right: 25%;
+}
 
+footer a {
+  font-size: 20px;
+  font-style: italic;
+}
