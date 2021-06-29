@@ -67,7 +67,7 @@ main {
   letter-spacing: 4px;
   background-color: #93b7be;
   padding: 4% 0;
-  color: #2D3047;
+  color: #048a81;
   border-bottom: 1.5px solid rgba(255, 174, 3, 1);
 }
 
@@ -185,3 +185,25 @@ p a:hover, .mini-article a:hover {
   margin: 2%;
 }
 
+#projects {
+  text-align: center;
+  padding: 10%;
+  border-top: 1.5px solid #048a81;
+}
+
+#projects h3 {
+  font-size: 45px;
+  margin: 3%;
+}
+
+img.logo {
+  border-radius: 50%;
+  height: 100px;
+  display: block;
+  margin: 20px auto;
+}
+
+#projects a:hover {
+  color: #048a81;
+  font-weight: 600;
+}
