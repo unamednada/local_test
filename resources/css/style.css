@@ -137,6 +137,7 @@ p a {
   border-top: 1.5px solid #93b7be;
   color:#2D3047;
   text-align: center;
+  padding: 5% 0px;
 }
 
 #skills h3 {
@@ -185,7 +186,7 @@ p a {
 
 #projects {
   text-align: center;
-  padding: 10% 0px;
+  padding: 5% 0px;
   border-top: 1.5px solid #048a81;
 }
 
@@ -200,7 +201,104 @@ img.logo {
   display: block;
   margin: 20px auto;
 }
- a:hover {
+
+a:hover {
   color: #048a81 !important;
   font-weight: 700;
- }
+}
+
+#about-me {
+  background-color: #048a81;
+  border-top: 1.5px solid #a799b7;
+  text-align: center;
+  padding: 5% 0px;
+}
+
+#about-me h3 {
+  font-size: 45px;
+  margin: 3%;
+}
+
+#about-me article {
+  display: inline-block;
+  max-width: 20%;
+  vertical-align: middle;
+  margin: 5% 2%;
+  background-color: #2D3047;
+  padding: 3%;
+  border-radius: 20px;
+}
+
+.paragraph-article h4 {
+  font-size: 25px;
+  margin: 5%;
+}
+
+.paragraph-article p {
+  font-size: 18px;
+  font-style: italic;
+}
+
+#contact {
+  background-color: rgba(255, 174, 3, 1);
+  color:#048a81;
+  text-align: center;
+  padding: 5% 10%;
+  border-top: 1.5px solid #2D3047;
+}
+
+#contact h4 {
+  font-size: 35px;
+}
+
+#contact p{
+  margin: 2% auto;
+  color:#2D3047;
+  max-width: 50%;
+}
+
+#contact a {
+  color:#a799b7;
+  text-decoration: none;
+}
+
+#contact li {
+  list-style: none;
+}
+
+h5 {
+  font-size: 16px;
+  margin-bottom: 1%;
+}
+
+#hobbies {
+  background-color: #048a81;
+  max-width: 50%;
+  text-align: center;
+  margin: 5% auto;
+  padding: 7%;
+  border-radius: 30px;
+}
+
+#hobbies h4 {
+  font-size: 35px;
+}
+
+#hobbies p {
+  margin: 2%;
+}
+
+footer {
+  background-color: #a799b7;
+  color:#048a81;
+  padding: 2%;
+}
+
+footer h4 {
+  font-size: 25px;
+}
+
+footer p {
+  float: right;
+  margin-right: 25%;
+}
