@@ -74,7 +74,15 @@ h2.welcome {
   align-self: center;
 }
 
+.middle {
+  display: flex;
+  justify-content: space-evenly;
+}
 
+img.profile {
+  max-height: 60%;
+  align-self: center;
+}
 
 
 
