@@ -65,16 +65,17 @@ main {
 #introduction h1 {
   font-size: 100px;
   letter-spacing: 4px;
-  background-color: #93b7be;
+  background-color: #a799b7;
   padding: 4% 0;
   color: #048a81;
   border-bottom: 1.5px solid rgba(255, 174, 3, 1);
 }
 
 h2.welcome {
-  font-size: 70px;
+  font-size: 80px;
   align-self: center;
   color: #a799b7;
+  letter-spacing: 3px;
 }
 
 .middle {
