@@ -35,7 +35,7 @@ header.navigation {
 
 .navigation a {
   text-decoration: none;
-  color: #048A81;
+  color: #2D3047;
   font-size: 18px;
   font-weight: 600;
   /* font-family: 'Roboto'; */
@@ -59,7 +59,7 @@ main {
   display: flex;
   justify-content: space-around;
   padding: 5%;
-  background-color: rgba(147, 183, 190, 0.4);
+  background-color: rgba(147, 183, 190, 0.9);
 }
 
 #introduction h1 {
@@ -71,7 +71,7 @@ main {
 h2.welcome {
   font-size: 70px;
   align-self: center;
-  color: #FFAE03;
+  color: #2D3047;
 }
 
 .middle {
