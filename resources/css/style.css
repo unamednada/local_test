@@ -121,10 +121,6 @@ p a {
   color: rgba(255, 174, 3, 1);
 }
 
-p a:hover, .mini-article a:hover {
-  color: #048a81;
-}
-
 .aside {
   border-top: 1.5px solid #2D3047;
 }
@@ -203,8 +199,7 @@ img.logo {
   display: block;
   margin: 20px auto;
 }
-
-#projects a:hover {
-  color: #048a81;
-  font-weight: 600;
-}
+ a:hover {
+  color: #048a81 !important;
+  font-weight: 700;
+ }
