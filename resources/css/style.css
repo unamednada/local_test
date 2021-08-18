@@ -62,7 +62,21 @@ header li {
   font-size: 1.4rem;
 }
 
+#intro {
+  margin: 2rem;
+  align-items: center;
+}
 
+#intro div,
+#intro h1 {
+  max-width: 45%;
+  text-align: center;
+}
+
+#intro img {
+  border-radius: 50%;
+  border: .25rem solid #907F9F;
+}
 
 /* Pseudo-classes */
 
