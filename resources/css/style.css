@@ -40,6 +40,15 @@ header.flex-stripe {
   padding: 0 1rem;
 }
 
+ul.flex-stripe {
+  align-items: center;
+}
+
 header li {
   margin: 0 .5rem;
+}
+
+a:hover {
+  font-size: 1.4rem;
+  color: #F7F7FF;
 }
