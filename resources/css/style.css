@@ -22,8 +22,24 @@ a {
   color: #122932;
 }
 
-header {
+ul {
+  list-style: none;
+}
+
+.flex-stripe {
+  display: flex;
+  justify-content: space-between;
+}
+
+header.flex-stripe {
   background-color: #907F9F;
   font-size: 1.2rem;
   font-weight: bold;
+  min-height: 3rem;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+header li {
+  margin: 0 .5rem;
 }
