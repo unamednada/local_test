@@ -42,6 +42,11 @@ img {
   justify-content: space-between;
 }
 
+.column-flex {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 .banner {
   margin: 10%;
   align-items: center;
@@ -85,8 +90,6 @@ header li {
 }
 
 #hot {
-  display: flex;
-  flex-flow: column nowrap;
   background-color: #907F9F;
   padding: 4% 0;
   border-radius: 12px;
@@ -106,11 +109,6 @@ header li {
   transition-duration: 500ms;
   transition-delay: 150ms;
   background-color: #F7F7FF;
-}
-
-#last-projects {
-  display: flex;
-  flex-flow: column nowrap;
 }
 
 #last-projects div {
