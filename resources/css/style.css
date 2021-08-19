@@ -17,6 +17,11 @@ body {
   color: #122932;
 }
 
+h2 {
+  font-size: 3rem;
+  color: #122932;
+}
+
 a {
   text-decoration: none;
   color: #122932;
@@ -86,13 +91,9 @@ header li {
   border-radius: 12px;
 }
 
-#hot h2 {
-  font-size: 3rem;
-  color: #122932;
-}
-
 #hot p {
   font-size: 1.5rem;
+  margin-top: 10%;
 }
 
 #hot div {
@@ -101,7 +102,7 @@ header li {
   max-width: 80%;
   border: 2px solid #122932;
   border-radius: 12px;
-  margin-top: 1rem;
+  margin: 1rem;
   transition: all ease-in .5s;
 }
 
