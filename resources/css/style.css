@@ -26,6 +26,7 @@ a {
   text-decoration: none;
   color: #122932;
   font-weight: bold;
+  transition: all linear 100ms;
 }
 
 ul {
@@ -102,7 +103,8 @@ header li {
   max-width: 80%;
   border: 2px solid #F7F7FF;
   margin: 1rem;
-  transition: all ease-out .5s;
+  transition-duration: 500ms;
+  transition-delay: 150ms;
   background-color: #F7F7FF;
 }
 
@@ -120,6 +122,10 @@ header li {
   font-size: 1.8rem;
   margin: 3% 1%;
   text-align: center;
+}
+
+#see-all {
+  transition-duration: 200ms;
 }
 
 /* Pseudo-classes */
