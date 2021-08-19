@@ -25,6 +25,7 @@ h2 {
 a {
   text-decoration: none;
   color: #122932;
+  font-weight: bold;
 }
 
 ul {
@@ -48,7 +49,6 @@ img {
 header.flex-stripe {
   background-color: #907F9F;
   font-size: 1.2rem;
-  font-weight: bold;
   min-height: 3rem;
   align-items: center;
   padding: 0 1rem;
@@ -102,8 +102,24 @@ header li {
   max-width: 80%;
   border: 2px solid #F7F7FF;
   margin: 1rem;
-  transition: all ease-in .5s;
+  transition: all ease-out .5s;
   background-color: #F7F7FF;
+}
+
+#last-projects {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#last-projects div {
+  align-items: center;
+  margin: 10% 0;
+}
+
+#last-projects a{
+  font-size: 1.8rem;
+  margin: 3% 1%;
+  text-align: center;
 }
 
 /* Pseudo-classes */
@@ -127,4 +143,17 @@ header nav a:hover {
 #hot img:hover {
   max-width: 100%;
   margin: 0;
+}
+
+#last-projects a:hover {
+  font-size: 2rem;
+  color: #907F9F;
+  text-shadow: .5px .5px #122932;
+}
+
+#see-all:hover {
+  padding: 5%;
+  background-color: #122932;
+  color: #F7F7FF;
+  border-radius: 12px;
 }
