@@ -78,6 +78,33 @@ header li {
   border: .25rem solid #907F9F;
 }
 
+#hot {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #907F9F;
+  padding: 4% 0;
+  border-radius: 12px;
+}
+
+#hot h2 {
+  font-size: 3rem;
+  color: #122932;
+}
+
+#hot p {
+  font-size: 1.5rem;
+}
+
+#hot div {
+  max-height: 58px;
+  overflow: scroll;
+  max-width: 80%;
+  border: 2px solid #122932;
+  border-radius: 12px;
+  margin-top: 1rem;
+  transition: all ease-in .5s;
+}
+
 /* Pseudo-classes */
 
 #pop-up:hover {
@@ -88,4 +115,13 @@ header li {
 header nav a:hover {
   font-size: 1.4rem;
   color: #F7F7FF;
+}
+
+#hot div:hover {
+  max-height: 400px;
+}
+
+#hot img:hover {
+  max-width: 100%;
+  margin: 0;
 }
