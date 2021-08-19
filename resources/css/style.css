@@ -96,14 +96,14 @@ header li {
   margin-top: 10%;
 }
 
-#hot div {
+#hot a {
   max-height: 58px;
   overflow: scroll;
   max-width: 80%;
-  border: 2px solid #122932;
-  border-radius: 12px;
+  border: 2px solid #F7F7FF;
   margin: 1rem;
   transition: all ease-in .5s;
+  background-color: #F7F7FF;
 }
 
 /* Pseudo-classes */
@@ -118,8 +118,10 @@ header nav a:hover {
   color: #F7F7FF;
 }
 
-#hot div:hover {
+#hot a:hover {
   max-height: 400px;
+  border-radius: 12px;
+  border: 2px solid #122932;
 }
 
 #hot img:hover {
