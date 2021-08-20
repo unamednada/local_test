@@ -17,9 +17,18 @@ body {
   color: #122932;
 }
 
+h1 {
+  font-size: 2.5rem;
+}
+
 h2 {
   font-size: 3rem;
   color: #122932;
+  margin-bottom: 10%;
+}
+
+h3 {
+  font-size: 2rem;
 }
 
 a {
@@ -96,7 +105,7 @@ header li {
 }
 
 #hot p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: 10%;
 }
 
@@ -120,10 +129,53 @@ header li {
   font-size: 1.8rem;
   margin: 3% 1%;
   text-align: center;
+  min-width: 30%;
 }
 
 #see-all {
   transition-duration: 200ms;
+}
+
+#about-me {
+  background-color: #122932;
+  color: #F7F7FF;
+  border-radius: 12px;
+  padding-bottom: 15%;
+  justify-content: space-around;
+}
+
+#about-me a,
+#about-me h2 {
+  color: #F7F7FF;
+  margin-top: 10%;
+}
+
+#about-me article,
+#about-me aside {
+  text-align: center;
+  max-width: 90%;
+  margin-top: 10%;
+}
+
+#about-me h3 {
+  font-size: 2.5rem;
+  margin-bottom: 10%;
+}
+
+#about-me li {
+  font-size: 1.5rem;
+}
+
+#more {
+  font-size: 3rem;
+  margin-top: 10%;
+  background-color: #F7F7FF;
+  padding: 5%;
+  border-radius: 12px;
+}
+
+#more a {
+  color: #122932;
 }
 
 /* Pseudo-classes */
@@ -160,4 +212,14 @@ header nav a:hover {
   background-color: #122932;
   color: #F7F7FF;
   border-radius: 12px;
+}
+
+#about-me a:hover {
+  color: #907F9F;
+  text-shadow: .5px .5px #F7F7FF;
+  font-size: 2rem;
+}
+
+#more a:hover {
+  font-size: 4rem;
 }
