@@ -178,6 +178,13 @@ header li {
   color: #122932;
 }
 
+footer {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  padding-bottom: 10%;
+}
+
 /* Pseudo-classes */
 
 #pop-up:hover {
@@ -214,7 +221,8 @@ header nav a:hover {
   border-radius: 12px;
 }
 
-#about-me a:hover {
+#about-me a:hover,
+footer a:hover {
   color: #907F9F;
   text-shadow: .5px .5px #F7F7FF;
   font-size: 2rem;
@@ -224,3 +232,4 @@ header nav a:hover {
   font-size: 3.2rem;
   text-shadow: .5px .5px #122932;
 }
+
