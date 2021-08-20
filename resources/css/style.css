@@ -221,5 +221,6 @@ header nav a:hover {
 }
 
 #more a:hover {
-  font-size: 4rem;
+  font-size: 3.2rem;
+  text-shadow: .5px .5px #122932;
 }
