@@ -5,7 +5,7 @@
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:testing-library/react",
-    "plugin:jest/all",
+    "plugin:jest/all"
   ],
   "parser": "@babel/eslint-parser",
   "settings": {
