@@ -3,8 +3,7 @@
     "trybe-frontend",
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
-    "plugin:testing-library/react",
-    "plugin:jest/all"
+    "plugin:testing-library/react"
   ],
   "parser": "@babel/eslint-parser",
   "settings": {
