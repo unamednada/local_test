@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from './Nav';
 
 export default function Header({ title }) {
   return (
@@ -8,13 +9,7 @@ export default function Header({ title }) {
           <h1>{title}</h1>
         </div>
         <div className="header-content-right">
-          <nav>
-            <ul>
-              <li><a>home</a></li>
-              <li><a>projects</a></li>
-              <li><a>about</a></li>
-            </ul>
-          </nav>
+          <Nav />
         </div>
       </div>
     </div>
