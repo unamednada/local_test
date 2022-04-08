@@ -11,7 +11,13 @@ function Header() {
           see source code here
         </a>
       </div>
-      <div className='header-right'></div>
+      <div className='header-right'>
+        <nav>
+          <a href="/">home</a>
+          <a href="/projects">projects</a>
+          <a href="/about">about</a>
+        </nav>
+      </div>
     </header>
   )
 }
