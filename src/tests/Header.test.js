@@ -39,25 +39,25 @@ describe('Tests Header Component', () => {
 
       it('should have navigation links', () => {
         expect(navBar.children.length).toBe(3);
-        const [aboutLink, projectsLink, homeLink] = navBar.children;
-        expect(aboutLink).toHaveTextContent('about');
-        expect(projectsLink).toHaveTextContent('projects');
+        const [homeLink, projectsLink, aboutLink] = navBar.children;
         expect(homeLink).toHaveTextContent('home');
+        expect(projectsLink).toHaveTextContent('projects');
+        expect(aboutLink).toHaveTextContent('about');
       });
-    
-      it('should have a link to the about page', () => {
-        const aboutLink = navBar.children[0];
-        expect(aboutLink).toHaveAttribute('href', '/about');
+
+      it('should have a link to the home page', () => {
+        const homeLink = navBar.children[0];
+        expect(homeLink).toHaveAttribute('href', '/');
       });
-    
+
       it('should have a link to the projects page', () => {
         const projectsLink = navBar.children[1];
         expect(projectsLink).toHaveAttribute('href', '/projects');
       });
     
-      it('should have a link to the home page', () => {
-        const homeLink = navBar.children[2];
-        expect(homeLink).toHaveAttribute('href', '/');
+      it('should have a link to the about page', () => {
+        const aboutLink = navBar.children[2];
+        expect(aboutLink).toHaveAttribute('href', '/about');
       });
     });
   });
