@@ -29,4 +29,19 @@ describe('Tests Component Header', () => {
     expect(projectsLink).toBeInTheDocument();
     expect(aboutLink).toBeInTheDocument();
   });
+
+  it('contains two sections left and right and they are positioned correctly', () => {
+    render(<Header title={title} />);
+    const left = screen.getByTestId('header-left');
+    const right = screen.getByTestId('header-right');
+    expect(right).toBeInTheDocument();
+    expect(left).toHaveStyle(`
+      float: left;
+      width: 50%;
+    `);
+    expect(right).toHaveStyle(`
+      float: right;
+      width: 50%;
+    `);
+  });
 });
