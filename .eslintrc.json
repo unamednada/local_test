@@ -1,6 +1,5 @@
 {
   "extends": [
-    "standard",
     "trybe-frontend",
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
