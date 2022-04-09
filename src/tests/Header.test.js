@@ -36,9 +36,10 @@ describe('Tests Header Component', () => {
 
     describe('The navigation bar', () => {
       const navBar = rightSection.children[0];
+      const NAV_LENGTH = 3;
 
       it('should have navigation links', () => {
-        expect(navBar.children.length).toBe(3);
+        expect(navBar.children.length).toBe(NAV_LENGTH);
         const [homeLink, projectsLink, aboutLink] = navBar.children;
         expect(homeLink).toHaveTextContent('home');
         expect(projectsLink).toHaveTextContent('projects');
@@ -54,7 +55,7 @@ describe('Tests Header Component', () => {
         const projectsLink = navBar.children[1];
         expect(projectsLink).toHaveAttribute('href', '/projects');
       });
-    
+
       it('should have a link to the about page', () => {
         const aboutLink = navBar.children[2];
         expect(aboutLink).toHaveAttribute('href', '/about');
