@@ -7,4 +7,10 @@ describe('The main application', () => {
     const header = screen.getByTestId('header');
     expect(header).toBeInTheDocument();
   });
+
+  it('should render the banner', () => {
+    render(<App />);
+    const banner = screen.getByTestId('banner');
+    expect(banner).toBeInTheDocument();
+  });
 });
