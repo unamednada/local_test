@@ -6,7 +6,14 @@ function Banner() {
       className="banner"
       data-testid="banner"
     >
-      <h1>Under construction...</h1>
+      <div className="banner-main">
+        <div className="banner-main-left">
+          <h1>Under construction...</h1>
+        </div>
+        <div className="banner-main-right">
+          <h2>RIGHT!</h2>
+        </div>
+      </div>
     </div>
   );
 }
