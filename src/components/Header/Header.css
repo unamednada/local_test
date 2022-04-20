@@ -1,0 +1,38 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(1, 25, 54);
+  z-index: 1;
+  display: flex;
+}
+
+.header-left {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1%;
+}
+
+.header-right {
+  float: right;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 2.5vh;
+}
+
+.header-right a {
+  margin-left: 1.2rem;
+}

@@ -1,7 +1,11 @@
 .banner {
-  background-image: url('../../../public/banner.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
+  background-color: rgb(70, 83, 98);
+  top: 100px;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
 }
