@@ -6,7 +6,7 @@ function Banner() {
       className="banner"
       data-testid="banner"
     >
-      Banner
+      <h1>Under construction...</h1>
     </div>
   );
 }
