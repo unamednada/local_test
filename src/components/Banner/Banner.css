@@ -1,11 +1,32 @@
 .banner {
   background-color: rgb(70, 83, 98);
-  top: 100px;
   position: relative;
+  top: 60px;
+  height: 600px;
+  padding-top: 100px;
+}
+
+.banner-main {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  background-color: rgb(70, 83, 98);
+  display: flex;
+  justify-content: space-around;
 }
 
 h1 {
   color: white;
   font-size: 3rem;
   text-align: center;
+}
+
+.banner-main-left {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-main-right {
+  display: flex;
+  justify-content: flex-end;
 }
