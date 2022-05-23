@@ -14,7 +14,7 @@ function Header() {
       </div>
       <div className="header-right">
         <nav className="header-nav">
-          <a href="/">home</a>
+          <a href="/" id="home-link">home</a>
           <a href="/projects">projects</a>
           <a href="/about">about</a>
         </nav>
