@@ -1,9 +1,9 @@
 import Header from './Header';
 import Banner from './Banner';
-
-export default function index() {}
+import Footer from './Footer';
 
 export {
   Header,
   Banner,
+  Footer,
 };
