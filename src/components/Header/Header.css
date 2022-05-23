@@ -36,7 +36,16 @@ header a {
 }
 
 header a:hover {
-  text-shadow: 0px 0px 2px #000;
+  color: white;
+  text-shadow:
+    0 0 7px grey,
+    0 0 10px grey,
+    0 0 21px grey,
+    0 0 42px #fff,
+    0 0 82px #fff,
+    0 0 92px silver,
+    0 0 102px silver,
+    0 0 151px silver;
   transition: 0.2s ease-in-out;
   animation: blinker 1s linear infinite;
 }
