@@ -19,4 +19,24 @@ describe('Tests Banner Component', () => {
     expect(leftSection).toHaveClass('banner-main-left');
     expect(rightSection).toHaveClass('banner-main-right');
   });
+
+  describe('The left section', () => {
+    const [leftSection] = bannerMain.children;
+    
+    it('should have a title', () => {
+      const title = leftSection.children[0];
+      expect(title.tagName).toBe('H1');
+      expect(title).toHaveTextContent('Under construction...');
+    });
+  });
+
+  describe('The right section', () => {
+    const [, rightSection] = bannerMain.children;
+
+    it('should have a smaller heading', () => {
+      const heading = rightSection.children[0];
+      expect(heading.tagName).toBe('H2');
+      expect(heading).toHaveTextContent('RIGHT!');
+    });
+  });
 });
