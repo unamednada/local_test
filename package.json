@@ -45,5 +45,13 @@
     "@testing-library/user-event": "^14.0.4",
     "eslint": "^8.12.0",
     "gh-pages": "^3.2.3"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "!<rootDir>/src/index.js",
+      "!<rootDir>/src/components/index.js",
+      "!<rootDir>/src/pages/index.js",
+      "!<rootDir>/src/reportWebVitals.js"
+    ]
   }
 }
