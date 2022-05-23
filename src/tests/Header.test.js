@@ -43,7 +43,7 @@ describe('Tests Header Component', () => {
         const [homeLink, projectsLink, aboutLink] = navBar.children;
         expect(homeLink).toHaveTextContent('home');
         expect(projectsLink).toHaveTextContent('projects');
-        expect(aboutLink).toHaveTextContent('about');
+        expect(aboutLink).toHaveTextContent('contact');
       });
 
       it('should have a link to the home page', () => {
@@ -58,7 +58,7 @@ describe('Tests Header Component', () => {
 
       it('should have a link to the about page', () => {
         const aboutLink = navBar.children[2];
-        expect(aboutLink).toHaveAttribute('href', '/about');
+        expect(aboutLink).toHaveAttribute('href', '/contact');
       });
     });
   });
