@@ -31,6 +31,7 @@ a {
   color: white;
   text-decoration: none;
   font-size: 1.5em;
+  opacity: 0.5;
 }
 
 a:hover {
@@ -45,6 +46,6 @@ a:hover {
 
 @keyframes blinker {
   50% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
