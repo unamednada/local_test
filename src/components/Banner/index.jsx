@@ -11,7 +11,8 @@ function Banner() {
           <h1 className="title neonText">Welcome, friend</h1>
         </div>
         <div className="banner-main-right">
-          <h2>RIGHT!</h2>
+          <img src="./images/profile.jpg" alt="profile" />
+          <h2>about me</h2>
         </div>
       </div>
     </div>
