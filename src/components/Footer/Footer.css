@@ -7,6 +7,7 @@ footer {
   background-color: grey;
   display: flex;
   padding-top: .5%;
+  box-shadow: 0px -1px 5px #000;
 }
 
 .footer-left {
@@ -33,21 +34,22 @@ footer a {
   text-decoration: none;
   font-size: 1.5em;
   opacity: 0.5;
+  height: min-content;
+  width: min-content;
+}
+
+footer img {
+  height: 50px;
+  width: 50px;
 }
 
 footer a:hover {
-  text-shadow: 0px 0px 10px #fff;
   transition: 0.2s ease-in-out;
   animation: blinker 1s linear infinite;
 }
 
 .footer-left a {
   margin-left: 1.2rem;
-}
-
-img {
-  width: 50px;
-  height: 50px;
 }
 
 .footer-right p {
