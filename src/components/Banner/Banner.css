@@ -71,7 +71,21 @@ h1::selection {
 }
 
 .banner img:hover {
-  animation: box-flicker 1s step-start;
+  box-shadow: 0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px silver,
+  0 0 82px silver;
+  transition: all 0.2s ease-in-out;
+}
+
+.banner-main-right:hover {
+  box-shadow: 0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px silver,
+  0 0 82px silver;
+  transition: all 0.2s ease-in-out;
 }
 
 .neonText {

@@ -46,8 +46,10 @@ header a:hover {
     0 0 92px silver,
     0 0 102px silver,
     0 0 151px silver;
-  transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
   animation: blinker 1s linear infinite;
+  font-weight: 300;
+  font-size: 1.48rem;
 }
 
 .header-right a {
