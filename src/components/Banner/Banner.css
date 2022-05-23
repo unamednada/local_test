@@ -1,5 +1,5 @@
 .banner {
-  background-color: rgb(70, 83, 98);
+  background-color: darkgray;
   position: relative;
   top: 60px;
   height: 600px;
@@ -10,7 +10,7 @@
   position: relative;
   height: 600px;
   width: 100%;
-  background-color: rgb(70, 83, 98);
+  background-color: darkgray;
   display: flex;
   justify-content: space-around;
 }
