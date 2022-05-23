@@ -1,7 +1,7 @@
 .banner {
   background-color: #000;
   position: relative;
-  top: 90px;
+  top: 40px;
   height: 600px;
 }
 
@@ -16,7 +16,7 @@
 
 h1 {
   color: white;
-  font-size: 3rem;
+  font-size: 7rem;
   text-align: center;
   height: 50px;
   padding: 2%;
@@ -53,11 +53,6 @@ h1::selection {
   font-size: 2rem;
   text-align: center;
   height: 50px;
-}
-
-.title {
-  font-size: 6rem;
-  text-align: center;
 }
 
 .banner img {
@@ -115,10 +110,7 @@ h1::selection {
     0 0 10px #fff,
     0 0 21px #fff,
     0 0 42px silver,
-    0 0 82px silver,
-    0 0 92px grey,
-    0 0 102px grey,
-    0 0 151px grey;
+    0 0 82px silver;
   }
   20%, 24%, 55%, 69% {
     opacity: 1;
