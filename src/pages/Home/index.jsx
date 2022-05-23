@@ -3,7 +3,7 @@ import './Home.css';
 
 function Home() {
   return (
-    <div className="Home">
+    <div className="Home" data-testid="home">
       <Header />
       <Banner />
       <Footer />

@@ -2,15 +2,9 @@ import { screen, render } from '@testing-library/react';
 import App from './App';
 
 describe('The main application', () => {
-  it('should render the header', () => {
+  it('should render the homepage', () => {
     render(<App />);
-    const header = screen.getByTestId('header');
-    expect(header).toBeInTheDocument();
-  });
-
-  it('should render the banner', () => {
-    render(<App />);
-    const banner = screen.getByTestId('banner');
-    expect(banner).toBeInTheDocument();
+    const homePage = screen.getByTestId('home');
+    expect(homePage).toBeInTheDocument();
   });
 });
