@@ -1,15 +1,15 @@
-header {
+footer {
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
-  height: 90px;
+  height: 80px;
   background-color: grey;
-  z-index: 1;
   display: flex;
+  padding-top: .5%;
 }
 
-.header-left {
+.footer-left {
   float: left;
   width: 50%;
   display: flex;
@@ -18,30 +18,42 @@ header {
   padding-left: 1%;
 }
 
-.header-right {
+.footer-right {
   float: right;
   width: 50%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding-right: 1%;
+  padding-bottom: .5%;
 }
 
-header a {
-  color: white;
+footer a {
+  color: black;
   text-decoration: none;
   font-size: 1.5em;
   opacity: 0.5;
 }
 
-header a:hover {
+footer a:hover {
   text-shadow: 0px 0px 10px #fff;
   transition: 0.2s ease-in-out;
   animation: blinker 1s linear infinite;
 }
 
-.header-right a {
+.footer-left a {
   margin-left: 1.2rem;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer-right p {
+  color: black;
+  opacity: 0.5;
+  font-size: 1.2rem;
 }
 
 @keyframes blinker {
