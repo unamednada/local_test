@@ -5,8 +5,8 @@ function Footer() {
     <footer data-testid="footer">
       <div className="footer-left">
         <nav className="footer-nav">
-          <a href="https://github.com/unamednada/"><img src="./images/github_icon.png" alt="github" /></a>
-          <a href="https://www.linkedin.com/in/unamednada/"><img src="./images/linkedin_icon.png" alt="linkedin" /></a>
+          <a href="https://github.com/unamednada/" target="_blank"><img src="./images/github_icon.png" alt="github" /></a>
+          <a href="https://www.linkedin.com/in/unamednada/" target="_blank"><img src="./images/linkedin_icon.png" alt="linkedin" /></a>
         </nav>
       </div>
       <div className="footer-right">

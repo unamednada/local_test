@@ -47,7 +47,7 @@ describe('Tests Footer Component', () => {
     it('should have a loving paragraph', () => {
       const lovingParagraph = rightSection.children[0];
       expect(lovingParagraph.tagName).toBe('P');
-      expect(lovingParagraph).toHaveTextContent('Created with React, CSS3 and loads of love');
+      expect(lovingParagraph).toHaveTextContent('Created with React, CSS3 and loads of coffee');
     });
   });
 });
