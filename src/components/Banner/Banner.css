@@ -49,15 +49,6 @@ h1::selection {
   letter-spacing: 0.05rem;
 }
 
-.banner-stack {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-self: flex-start;
-  justify-self: flex-start;
-  border-radius: 10px;
-}
-
 .banner-main-left h2{
   color: white;
   font-size: 2.5rem;
@@ -68,13 +59,36 @@ h1::selection {
 
 .banner-stack-icons {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   flex-direction: row;
   align-self: flex-start;
   justify-self: flex-start;
   border-radius: 10px;
   width: 600px;
   margin: 0 0 6% 8%;
+  opacity: 0.5;
+}
+
+.frontend:hover {
+  opacity: 1;
+  z-index: 1;
+}
+
+.backend:hover {
+  opacity: 1;
+  z-index: 1;
+}
+
+.banner-stack-icons:hover {
+  box-shadow: 0 0 10px #fff,
+  0 0 12px #fff,
+  0 0 14px #fff,
+  0 0 16px #fff;
+  height: 200px;
+  transition: all 0.5s ease-in-out;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.8%;
 }
 
 .banner-stack-icons img {
@@ -82,6 +96,19 @@ h1::selection {
   height: 100px;
   border-radius: 12px;
   margin: 1%;
+}
+
+.frontend .stack-content {
+  position: absolute;
+  font-size: 1.5rem;
+  bottom: 29.2%;
+  left: 5%;
+}
+
+.backend .stack-content {
+  position: absolute;
+  font-size: 1.5rem;
+  bottom: 15.2%;
 }
 
 .banner-main-right {
