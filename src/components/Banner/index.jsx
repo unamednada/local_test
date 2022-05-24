@@ -45,6 +45,16 @@ function Banner() {
               Testing
             </div>
           </div>
+          <div className="banner-stack-icons cloud">
+            <img alt="heroku" src="./images/heroku.png" />
+            <img alt="docker" src="./images/docker.png" />
+            <img alt="supabase" src="./images/supabase.png" />
+            <img alt="github-pages" src="./images/pages.png" />
+            <img alt="github-actions" src="./images/actions.png" />
+            <div className="stack-content">
+              Cloud & Deploy
+            </div>
+          </div>
         </div>
         <img src="./images/profile.jpg" alt="profile" id="main-profile" />
         <div className="banner-main-right">
