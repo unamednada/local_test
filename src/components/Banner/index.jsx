@@ -10,9 +10,10 @@ function Banner() {
         <div className="banner-main-left">
           <h1 className="title neonText">Welcome, friend</h1>
         </div>
+        <img src="./images/profile.jpg" alt="profile" />
         <div className="banner-main-right">
-          <img src="./images/profile.jpg" alt="profile" />
           <h2>about me</h2>
+          <p>FullStack developer, System&#39;s Analyst, crazy about tech and education.</p>
         </div>
       </div>
     </div>

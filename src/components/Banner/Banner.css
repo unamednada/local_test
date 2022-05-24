@@ -39,7 +39,8 @@ h1::selection {
 
 .banner-main-right {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   margin-right: 10%;
   margin-top: 5%;
   box-shadow: 0px 1px 5px #fff;
@@ -68,6 +69,7 @@ h1::selection {
   0 0 5px grey,
   0 0 10px grey,
   0 0 21px grey;
+  z-index: 1;
 }
 
 .banner img:hover {
@@ -86,6 +88,17 @@ h1::selection {
   0 0 42px silver,
   0 0 82px silver;
   transition: all 0.2s ease-in-out;
+  background-color: black;
+  z-index: 2;
+}
+
+.banner-main-right p {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 1.5rem;
+  text-align: justify;
+  height: 200px;
+  margin: auto 12%;
 }
 
 .neonText {
