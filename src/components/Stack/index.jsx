@@ -7,7 +7,7 @@ function Stack({ icons, content }) {
       {icons.map((icon, index) => (
         <img key={ index } src={ icon === 'chai' ? './images/chai.svg' : `./images/${icon}.png` } alt={ `icon-${icon}` } />
       ))}
-      <div className="stack-content">{ `${content.toUpperCase()}` }</div>
+      <div className="stack-content">{ `${content}` }</div>
     </div>
   );
 }
