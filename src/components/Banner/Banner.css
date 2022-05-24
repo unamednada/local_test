@@ -59,12 +59,13 @@ h1::selection {
   border-radius: 10px;
 }
 
-.banner-stack h2{
+.banner-main-left h2{
   color: white;
   font-size: 2rem;
   text-align: center;
   letter-spacing: 0.05rem;
-  margin: 15%;
+  align-self: flex-start;
+  margin-left: 2%;
 }
 
 .banner-stack-icons {
@@ -74,11 +75,11 @@ h1::selection {
   align-self: flex-start;
   justify-self: flex-start;
   border-radius: 10px;
-  width: 400px;
-  margin-left: 30%;
+  width: 600px;
+  margin: 0 0 20% 8%;
 }
 
-.banner-stack img {
+.banner-stack-icons img {
   width: 100px;
   height: 100px;
   border-radius: 12px;

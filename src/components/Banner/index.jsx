@@ -14,15 +14,13 @@ function Banner() {
             <em>&</em>
             Systems&#39; Analyst
           </p>
-          <div className="banner-stack">
-            <h2>my stack</h2>
-            <div className="banner-stack-icons">
-              <img src="./images/profile.jpg" alt="profile" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-            </div>
+          <h2>my stack</h2>
+          <div className="banner-stack-icons">
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
           </div>
         </div>
         <img src="./images/profile.jpg" alt="profile" id="main-profile" />
