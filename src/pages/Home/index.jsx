@@ -1,4 +1,5 @@
-import { Header, Banner, Footer } from '../../components';
+import { Header, Footer } from '../../components';
+import { Banner } from '../../templates';
 import './Home.css';
 
 function Home() {

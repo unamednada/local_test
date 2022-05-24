@@ -1,9 +1,9 @@
 import Header from './Header';
-import Banner from './Banner';
 import Footer from './Footer';
+import Stack from './Stack';
 
 export {
   Header,
-  Banner,
   Footer,
+  Stack,
 };
