@@ -31,12 +31,14 @@ describe('Tests Footer Component', () => {
         const gitLink = navBar.children[0];
         expect(gitLink).toHaveAttribute('href', 'https://github.com/unamednada/');
         expect(gitLink).toHaveAttribute('target', '_blank');
+        expect(gitLink).toHaveAttribute('rel', 'noreferrer');
       });
   
       it('should have a link to the linkedin profile', () => {
         const linkedinLink = navBar.children[1];
         expect(linkedinLink).toHaveAttribute('href', 'https://www.linkedin.com/in/unamednada/');
         expect(linkedinLink).toHaveAttribute('target', '_blank');
+        expect(linkedinLink).toHaveAttribute('rel', 'noreferrer');
       });
     });
     });
