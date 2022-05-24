@@ -23,11 +23,11 @@ function Banner() {
             <img alt="redux" src="./images/redux.png" />
           </div>
           <div className="banner-stack-icons">
-            <img alt="html5" src="./images/html5.png" />
-            <img alt="css3" src="./images/css3.png" />
-            <img alt="js" src="./images/javascript.png" />
-            <img alt="react" src="./images/react.png" />
-            <img alt="redux" src="./images/redux.png" />
+            <img alt="node" src="./images/node.png" />
+            <img alt="express" src="./images/express.png" />
+            <img alt="ts" src="./images/typescript.png" />
+            <img alt="sequelize" src="./images/sequelize.png" />
+            <img alt="mysql" src="./images/mysql.png" />
           </div>
         </div>
         <img src="./images/profile.jpg" alt="profile" id="main-profile" />
