@@ -18,6 +18,13 @@ function Banner() {
         <img src="./images/profile.jpg" alt="profile" />
         <div className="banner-main-right">
           <h2>about me</h2>
+          <p>
+            A soon to be fullstack developer with a background in systems&#39;. I&#39;m currently studying Systems&#39; Analysis and Development at University. I love coding and my most recent professional experiences have been with the development of web applications.
+          </p>
+          <hr />
+          <p>
+            With my experience in systems&#39;, I&#39;ve been able to work with a wide range of technologies, from frontend to backend. I&#39;m also familiar with the use of databases and cloud computing.
+          </p>
         </div>
       </div>
     </div>
