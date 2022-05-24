@@ -8,12 +8,16 @@ function Banner() {
     >
       <div className="banner-main">
         <div className="banner-main-left">
-          <h1 className="title neonText">Welcome, friend</h1>
+          <h1 className="neonText">Welcome, friend</h1>
+          <p>
+            I&#39;m Gustavo. FullStack Developer
+            <em>&</em>
+            Systems&#39; Analyst
+          </p>
         </div>
         <img src="./images/profile.jpg" alt="profile" />
         <div className="banner-main-right">
           <h2>about me</h2>
-          <p>FullStack developer, System&#39;s Analyst, crazy about tech and education.</p>
         </div>
       </div>
     </div>
