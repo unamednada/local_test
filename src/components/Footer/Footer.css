@@ -3,11 +3,11 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 80px;
-  background-color: grey;
+  height: 40px;
+  background-color: silver;
   display: flex;
   padding-top: .5%;
-  box-shadow: 0px -1px 5px #000;
+  box-shadow: 0px -5px 10px #fff;
 }
 
 .footer-left {
@@ -16,7 +16,6 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 1%;
 }
 
 .footer-right {
@@ -26,7 +25,7 @@ footer {
   justify-content: flex-end;
   align-items: center;
   padding-right: 1%;
-  padding-bottom: .5%;
+  padding-bottom: .7%;
 }
 
 footer a {
@@ -39,8 +38,8 @@ footer a {
 }
 
 footer img {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
 }
 
 footer a:hover {
@@ -53,9 +52,9 @@ footer a:hover {
 }
 
 .footer-right p {
-  color: black;
+  color: s;
   opacity: 0.5;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 @keyframes blinker {

@@ -1,32 +1,214 @@
 .banner {
-  background-color: darkgray;
+  background-color: #000;
   position: relative;
-  top: 60px;
-  height: 600px;
-  padding-top: 100px;
+  top: 40px;
+  height: 1000px;
 }
 
 .banner-main {
   position: relative;
-  height: 600px;
+  padding-bottom: 10%;
   width: 100%;
-  background-color: darkgray;
+  background-color: #000;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 h1 {
   color: white;
-  font-size: 3rem;
-  text-align: center;
+  font-size: 7rem;
+  text-align: end;
+  height: 50px;
+  letter-spacing: 0.05rem;
+  padding-right: 18%;
+}
+
+h1:hover {
+  animation: flicker 1s infinite alternate;
+  cursor: default;
+}
+
+h1::selection {
+  color: gold;
 }
 
 .banner-main-left {
   display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.banner-main-left em {
+  font-family: monospace;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin: 1%;
+  letter-spacing: 0.05rem;
+}
+
+.banner-stack {
+  display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-self: flex-start;
+  justify-self: flex-start;
+  border-radius: 10px;
+}
+
+.banner-main-left h2{
+  color: white;
+  font-size: 2.5rem;
+  letter-spacing: 0.05rem;
+  align-self: flex-start;
+  margin: 20% 0 10% 6%;
+}
+
+.banner-stack-icons {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-self: flex-start;
+  border-radius: 10px;
+  width: 600px;
+  margin: 0 0 6% 8%;
+}
+
+.banner-stack-icons img {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  margin: 1%;
 }
 
 .banner-main-right {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10%;
+  margin-top: 5%;
+  box-shadow: 0px 1px 5px #fff;
+  border-radius: 33px;
+  width: 500px;
+  height: 500px;
+}
+
+.banner-main-right h2 {
+  color: #fff;
+  opacity: 0.7;
+  font-size: 2.5rem;
+  text-align: center;
+  height: 50px;
+  margin-top: 0;
+}
+
+#main-profile {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 18%;
+  position: absolute;
+  top: 20%;
+  right: 38%;
+  box-shadow: 0 0 3px grey,
+  0 0 5px grey,
+  0 0 10px grey,
+  0 0 21px grey;
+  z-index: 1;
+}
+
+#main-profile:hover {
+  width: 220px;
+  height: 220px;
+  box-shadow: 0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px silver,
+  0 0 82px silver;
+  transition: all 0.2s ease-in-out;
+}
+
+.banner-main-right:hover {
+  box-shadow: 0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px silver,
+  0 0 82px silver;
+  transition: all 0.3s ease-in-out; 
+  background-color: black;
+  z-index: 2;
+  width: 550px;
+  height: 550px;
+}
+
+.banner-main-left p {
+  color: #fff;
+  opacity: 1;
+  font-size: 1.2rem;
+  text-align: end;
+  margin: 17% 20% auto 5%;
+}
+
+.banner-main-right p {
+  color: #fff;
+  text-align: justify;
+  margin: 0 12%;
+  opacity: 0.5;
+  font-weight: normal;
+}
+
+.neonText {
+  opacity: 0.5;
+  color: silver;
+  text-shadow:
+    0 0 3px #fff,
+    0 0 5px grey,
+    0 0 10px grey,
+    0 0 21px grey;
+  animation: flicker 2.5s step-start;
+}
+
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 55%, 63%, 70% {
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px silver,
+    0 0 82px silver,
+    0 0 92px grey,
+    0 0 102px grey,
+    0 0 151px grey;
+  }
+  20%, 24%, 55%, 69% {
+    opacity: 1;
+    color: #fff;
+    text-shadow: none;
+  }
+}
+
+@keyframes box-flicker {
+  0%, 18%, 22%, 25%, 53%, 55%, 63%, 70% {
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px silver,
+    0 0 82px silver;
+  }
+  20%, 24%, 55%, 69% {
+    opacity: 1;
+    boder: 1px solid #fff;
+    box-shadow: none;
+  }
+}
+
+hr {
+  color: #fff;
+  opacity: 0.5;
+  width: 80%;
+  margin: 20px auto;
 }
