@@ -44,6 +44,12 @@ function Banner() {
               It&#39;s a sandbox app which allows you to create pixelated art with random colors.
             </p>
           </div>
+          <div className="spotlight nav">
+            <h2>like what you see?</h2>
+            <a href="/projects">click here to see more!</a>
+            <div id="or">or</div>
+            <a href="/contact">here to contact me</a>
+          </div>
         </div>
       </div>
     </div>
