@@ -10,7 +10,7 @@ function Footer() {
         </nav>
       </div>
       <div className="footer-right">
-        <p>Created with React, CSS3 and loads of love</p>
+        <p>Created with React, CSS3 and loads of coffee</p>
       </div>
     </footer>
   );
