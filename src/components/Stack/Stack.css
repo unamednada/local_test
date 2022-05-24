@@ -4,7 +4,7 @@
   flex-direction: row;
   align-self: flex-start;
   justify-self: flex-start;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 600px;
   margin: 0 0 6% 8%;
   opacity: 0.5;
@@ -20,7 +20,7 @@
   color: silver;
   font-weight: 600;
   padding: 0.8%;
-  height: 200px;
+  height: 160px;
 }
 
 .banner-stack-icons img {
@@ -33,25 +33,29 @@
 .frontend .stack-content {
   position: absolute;
   font-size: 1.5rem;
-  bottom: 47.5%;
+  bottom: 48.5%;
+  left: 5.5%;
 }
 
 .backend .stack-content {
   position: absolute;
   font-size: 1.5rem;
-  bottom: 35.5%;
+  bottom: 36.5%;
+  left: 5.5%;
 }
 
 .testing .stack-content {
   position: absolute;
   font-size: 1.5rem;
-  bottom: 23.8%;
+  bottom: 24.4%;
+  left: 5.5%;
 }
 
 .cloud .stack-content {
   position: absolute;
   font-size: 1.5rem;
-  bottom: 11.8%;
+  bottom: 12.2%;
+  left: 5.5%;
 }
 
 .frontend:hover {
