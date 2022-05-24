@@ -16,11 +16,18 @@ function Banner() {
           </p>
           <h2>my stack</h2>
           <div className="banner-stack-icons">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img alt="html5" src="./images/html5.png" />
+            <img alt="css3" src="./images/css3.png" />
+            <img alt="js" src="./images/javascript.png" />
+            <img alt="react" src="./images/react.png" />
+            <img alt="redux" src="./images/redux.png" />
+          </div>
+          <div className="banner-stack-icons">
+            <img alt="html5" src="./images/html5.png" />
+            <img alt="css3" src="./images/css3.png" />
+            <img alt="js" src="./images/javascript.png" />
+            <img alt="react" src="./images/react.png" />
+            <img alt="redux" src="./images/redux.png" />
           </div>
         </div>
         <img src="./images/profile.jpg" alt="profile" id="main-profile" />
