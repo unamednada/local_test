@@ -168,7 +168,7 @@ h1::selection {
   object-fit: cover;
   border-radius: 18%;
   position: absolute;
-  top: 20%;
+  top: 14%;
   right: 38%;
   box-shadow: 0 0 3px grey,
   0 0 5px grey,
@@ -222,6 +222,8 @@ h1::selection {
 
 .projects {
   align-items: center;
+  justify-content: center;
+  padding: 1% 0;
 }
 
 .projects h2 {
@@ -243,8 +245,8 @@ h1::selection {
 }
 
 .projects img {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   border-radius: 12px;
   margin: 1%;
   box-shadow: 0 0 3px grey,
