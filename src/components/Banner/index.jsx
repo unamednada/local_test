@@ -35,6 +35,16 @@ function Banner() {
               Backend development
             </div>
           </div>
+          <div className="banner-stack-icons testing">
+            <img alt="jest" src="./images/jest.png" />
+            <img alt="mocha" src="./images/mocha.png" />
+            <img alt="chai" src="./images/chai.svg" />
+            <img alt="sinon" src="./images/sinon.png" />
+            <img alt="rtl" src="./images/rtl.png" />
+            <div className="stack-content">
+              Testing
+            </div>
+          </div>
         </div>
         <img src="./images/profile.jpg" alt="profile" id="main-profile" />
         <div className="banner-main-right">

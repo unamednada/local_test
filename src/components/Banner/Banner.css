@@ -55,6 +55,7 @@ h1::selection {
   letter-spacing: 0.05rem;
   align-self: flex-start;
   margin: 20% 0 10% 6%;
+  opacity: 0.7;
 }
 
 .banner-stack-icons {
@@ -75,6 +76,11 @@ h1::selection {
 }
 
 .backend:hover {
+  opacity: 1;
+  z-index: 1;
+}
+
+.testing:hover {
   opacity: 1;
   z-index: 1;
 }
@@ -101,14 +107,19 @@ h1::selection {
 .frontend .stack-content {
   position: absolute;
   font-size: 1.5rem;
-  bottom: 29.2%;
-  left: 5%;
+  bottom: 37.2%;
 }
 
 .backend .stack-content {
   position: absolute;
   font-size: 1.5rem;
-  bottom: 15.2%;
+  bottom: 25.8%;
+}
+
+.testing .stack-content {
+  position: absolute;
+  font-size: 1.5rem;
+  bottom: 14.7%;
 }
 
 .banner-main-right {
@@ -155,7 +166,7 @@ h1::selection {
   0 0 21px #fff,
   0 0 42px silver,
   0 0 82px silver;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .banner-main-right:hover {
@@ -164,7 +175,7 @@ h1::selection {
   0 0 21px #fff,
   0 0 42px silver,
   0 0 82px silver;
-  transition: all 0.3s ease-in-out; 
+  transition: all 0.5s ease-in-out; 
   background-color: black;
   z-index: 2;
   width: 550px;

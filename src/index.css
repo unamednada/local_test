@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
-/* * {
-  border: 1px solid red;
-} */
+* {
+  cursor: default;
+  /* border: 1px solid red; */
+}
+
+a:hover {
+  cursor: pointer;
+}

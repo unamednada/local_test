@@ -47,6 +47,10 @@ footer a:hover {
   animation: blinker 1s linear infinite;
 }
 
+footer img:hover {
+  cursor: pointer;
+}
+
 .footer-left a {
   margin-left: 1.2rem;
 }
