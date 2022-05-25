@@ -1,7 +1,7 @@
 import './Banner.css';
 import { frontEnd, backEnd, testing, cloud } from '../../service/mockStackDB';
 import { Stack, Spotlight } from '../../components';
-import { aboutMe, projects } from '../../service/mockSpotlightDB';
+import { aboutMe, projects, nav } from '../../service/mockSpotlightDB';
 
 function Banner() {
   return (
@@ -37,12 +37,12 @@ function Banner() {
           >
             { projects.children }
           </Spotlight>
-          <div className="spotlight nav">
-            <h2>like what you see?</h2>
-            <a href="/projects">click here to see more!</a>
-            <div id="or">or</div>
-            <a href="/contact">here to contact me</a>
-          </div>
+          <Spotlight
+            title={ nav.title }
+            className={ nav.className }
+          >
+            { nav.children }
+          </Spotlight>
         </div>
       </div>
     </div>
