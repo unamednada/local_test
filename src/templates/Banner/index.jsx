@@ -1,6 +1,7 @@
 import './Banner.css';
 import { frontEnd, backEnd, testing, cloud } from '../../service/mockStackDB';
-import { Stack } from '../../components';
+import { Stack, Spotlight } from '../../components';
+import { aboutMe } from '../../service/mockSpotlightDB';
 
 function Banner() {
   return (
@@ -24,16 +25,12 @@ function Banner() {
         </div>
         <img src="./images/profile.jpg" alt="profile" id="main-profile" />
         <div className="banner-main-right">
-          <div className="spotlight about">
-            <h2>about me</h2>
-            <p>
-              A soon to be fullstack developer with a background in systems&#39;. I&#39;m currently studying Systems&#39; Analysis and Development at University. I love coding and my most recent professional experiences have been with the development of web applications.
-            </p>
-            <hr />
-            <p>
-              With my experience in systems&#39;, I&#39;ve been able to work with a wide range of technologies, from frontend to backend. I&#39;m also familiar with the use of databases and cloud computing.
-            </p>
-          </div>
+          <Spotlight
+            title={ aboutMe.title }
+            className={ aboutMe.className }
+          >
+            { aboutMe.children }
+          </Spotlight>
           <div className="spotlight projects">
             <h2>spotlight</h2>
             <a id="spotlight" href="https://pixel-art.unamednada.repl.co/" target="_blank" rel="noreferrer">
