@@ -60,32 +60,6 @@ h1::selection {
   animation: flicker 1s infinite alternate;
 }
 
-.spotlight {
-  display: flex;
-  margin-right: 100px;
-  margin-top: 100px;
-  flex-direction: column;
-  justify-content: center;
-  box-shadow: 0px 1px 5px #fff;
-  border-radius: 33px;
-  width: 500px;
-  height: 500px;
-  z-index: 0.5;
-  background-color: black;
-}
-
-.spotlight h2 {
-  color: #fff;
-  font-size: 2.5rem;
-  text-align: center;
-  height: 50px;
-  margin-top: 0;
-}
-
-.about {
-  opacity: 0.5;
-}
-
 #main-profile {
   width: 200px;
   height: 200px;
@@ -116,139 +90,12 @@ h1::selection {
   z-index: 2;
 }
 
-.spotlight:hover {
-  box-shadow: 0 0 7px #fff,
-  0 0 10px #fff,
-  0 0 21px #fff,
-  0 0 42px silver,
-  0 0 82px silver;
-  transition: all 0.5s ease-in-out; 
-  background-color: black;
-  width: 520px;
-  height: 520px;
-  opacity: 1;
-}
-
 .banner-main-left p {
   color: #fff;
   opacity: 0.7;
   font-size: 1.2rem;
   text-align: end;
   margin: 17% 20% auto 5%;
-}
-
-.spotlight p {
-  color: #fff;
-  text-align: justify;
-  margin: 0 12%;
-  font-weight: normal;
-}
-
-.projects {
-  align-items: center;
-  justify-content: center;
-  padding: 1% 0;
-  box-shadow: 0 0 5px #fff,
-  0 0 8px #fff,
-  0 0 10px #fff,
-  0 0 15px #fff;
-}
-
-.projects h2 {
-  text-shadow: 0 0 5px #fff,
-  0 0 10px #fff,
-  0 0 21px #fff,
-  0 0 42px silver,
-  0 0 82px silver;
-  opacity: 1.0;
-  animation: blinker 2s ease-in-out infinite;
-}
-
-.projects h4 {
-  color: #fff;
-  font-size: 1.5rem;
-  margin: 1% auto 2% auto;
-  text-shadow: 0 0 5px silver,
-  0 0 10px silver,
-  0 0 21px silver;
-}
-
-.projects img {
-  height: 250px;
-  width: 250px;
-  border-radius: 12px;
-  margin: 1%;
-  box-shadow: 0 0 3px grey,
-  0 0 5px grey,
-  0 0 10px grey,
-  0 0 21px grey;
-}
-
-#spotlight:hover,
-.projects img:hover,
-.projects h4:hover,
-.projects p:hover {
-  cursor: pointer;
-}
-
-.projects p {
-  text-align: center;
-  opacity: 0.6;
-}
-
-.nav {
-  height: 150px;
-  color: #fff;
-  animation: box-blinker 2s infinite;
-}
-
-.nav h2 {
-  margin: 8px 0;
-}
-
-.nav a[href="/projects"] {
-  margin-right: 30%;
-  transition: all 0.8s ease-in-out;
-  opacity: 0.6;
-  height: 80px;
-}
-
-.nav a[href="/projects"]:hover {
-  margin-right: 0;
-  font-size: 1.8rem;
-  font-weight: 600;
-  animation: flicker 1s infinite alternate;
-  letter-spacing: 0.5rem;
-  margin-bottom: 7%;
-}
-
-.nav a[href="/contact"] {
-  margin-left: 30%;
-  transition: all 0.8s ease-in-out;
-  opacity: 0.6;
-  height: 80px;
-  margin-bottom: 0;
-}
-
-.nav a[href="/contact"]:hover {
-  margin-left: 0;
-  font-size: 1.8rem;
-  font-weight: 600;
-  animation: flicker 1s infinite alternate;
-  letter-spacing: 0.5rem;
-}
-
-.nav #or {
-  position: absolute;
-  left: 75%;
-  bottom: 12%;
-  font-size: 2rem;
-  font-weight: 500;
-  opacity: 0.3;
-}
-
-.nav:hover {
-  height: 160px;
 }
 
 .neonText {
@@ -324,5 +171,5 @@ hr {
   color: #fff;
   opacity: 0.5;
   width: 80%;
-  margin: 20px auto;
+  margin: 10px auto;
 }
