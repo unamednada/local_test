@@ -1,7 +1,7 @@
 import './Banner.css';
 import { frontEnd, backEnd, testing, cloud } from '../../service/mockStackDB';
 import { Stack, Spotlight } from '../../components';
-import { aboutMe } from '../../service/mockSpotlightDB';
+import { aboutMe, projects } from '../../service/mockSpotlightDB';
 
 function Banner() {
   return (
@@ -31,18 +31,12 @@ function Banner() {
           >
             { aboutMe.children }
           </Spotlight>
-          <div className="spotlight projects">
-            <h2>spotlight</h2>
-            <a id="spotlight" href="https://pixel-art.unamednada.repl.co/" target="_blank" rel="noreferrer">
-              <img src="./images/pixel-art.png" alt="project-preview" />
-              <hr />
-              <h4>Pixel Art</h4>
-              <p>
-                Web app developed with HTML, CSS and JS vanilla.
-                It&#39;s a sandbox app which allows you to create pixelated art with random colors.
-              </p>
-            </a>
-          </div>
+          <Spotlight
+            title={ projects.title }
+            className={ projects.className }
+          >
+            { projects.children }
+          </Spotlight>
           <div className="spotlight nav">
             <h2>like what you see?</h2>
             <a href="/projects">click here to see more!</a>

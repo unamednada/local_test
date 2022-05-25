@@ -194,6 +194,7 @@ h1::selection {
 .projects p {
   text-align: center;
   opacity: 0.6;
+  margin-bottom: 2%;
 }
 
 .nav {
@@ -324,5 +325,5 @@ hr {
   color: #fff;
   opacity: 0.5;
   width: 80%;
-  margin: 20px auto;
+  margin: 10px auto;
 }

@@ -15,7 +15,31 @@ const aboutMe = {
   className: 'about',
 };
 
+const projectsText = [
+  'Pixel Art',
+  'Web app developed with HTML, CSS and JS vanilla. It\'s a sandbox app which allows you to create pixelated art with random colors. Deploy on repl.it with a nodejs + express server.',
+];
+
+const anchorChildren = [
+  (createElement('img', { key: 0, src: './images/pixel-art.png', alt: 'project-preview' })),
+  (createElement('hr')),
+  (createElement('h4', { key: 1 }, projectsText[0])),
+  (createElement('p', { key: 2 }, projectsText[1])),
+];
+
+const parentAnchor = createElement('a', {
+  href: 'https://pixel-art.unamednada.repl.co/',
+  target: '_blank',
+  rel: 'noopener noreferrer',
+}, anchorChildren);
+
+const projects = {
+  title: 'spotlight',
+  children: [parentAnchor],
+  className: 'projects',
+};
+
 export {
-  aboutMeText,
   aboutMe,
+  projects,
 };
