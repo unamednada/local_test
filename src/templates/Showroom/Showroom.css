@@ -9,22 +9,14 @@
 .showroom-main {
   position: relative;
   padding-bottom: 10%;
-  width: 100%;
   background-color: #000;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.showroom-main-left {
-  display: flex;
   justify-content: space-between;
-  flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .showroom .spotlight {
-  width: 100%;
+  width: 90%;
   margin-right: 0;
 }
