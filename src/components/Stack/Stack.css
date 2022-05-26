@@ -1,3 +1,10 @@
+.Stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .banner-stack-icons {
   display: flex;
   justify-content: space-between;
@@ -6,7 +13,6 @@
   justify-self: flex-start;
   border-radius: 20px;
   width: 600px;
-  margin: 0 0 6% 8%;
   opacity: 0.5;
   height: 150px;
 }
@@ -23,6 +29,10 @@
   height: 160px;
 }
 
+.stack-content {
+  font-size: 1.5rem;
+}
+
 .banner-stack-icons img {
   width: 100px;
   height: 100px;
@@ -31,10 +41,7 @@
 }
 
 .frontend .stack-content {
-  position: absolute;
   font-size: 1.5rem;
-  bottom: 48.5%;
-  left: 5.5%;
 }
 
 .backend .stack-content {

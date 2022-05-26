@@ -11,12 +11,14 @@ function Banner() {
     >
       <div className="banner-main">
         <div className="banner-main-left">
-          <h1 className="neonText">Welcome, friend</h1>
-          <p>
-            I&#39;m Gustavo. FullStack Developer
-            <em>&</em>
-            Systems&#39; Analyst
-          </p>
+          <div className="banner-intro">
+            <h1 className="neonText">Welcome, friend</h1>
+            <p>
+              I&#39;m Gustavo. FullStack Developer
+              <em>&</em>
+              Systems&#39; Analyst
+            </p>
+          </div>
           <h2>main stack</h2>
           <Stack icons={ frontEnd } content="frontend" />
           <Stack icons={ backEnd } content="backend" />
