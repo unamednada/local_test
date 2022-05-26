@@ -1,13 +1,12 @@
 import { Header, Footer } from '../../components';
+import { Showroom } from '../../templates';
 import './Projects.css';
 
 function Projects() {
   return (
     <div className="Projects" data-testid="projects">
       <Header />
-      <div className="Projects__content">
-        PROJECTS
-      </div>
+      <Showroom />
       <Footer />
     </div>
   );

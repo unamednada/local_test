@@ -1,0 +1,41 @@
+.showroom {
+  background-color: #000;
+  position: relative;
+  top: 40px;
+  height: 1000px;
+  width: 100%;
+}
+
+.showroom-main {
+  position: relative;
+  padding-bottom: 10%;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.showroom .spotlight {
+  width: 90%;
+  margin-right: 0;
+}
+
+.source-code {
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 5px #fff, 0 0 8px #fff, 0 0 10px #fff, 0 0 15px #fff;
+  padding: 0.5rem 1rem;
+  background-color: #000;
+  position: absolute;
+  bottom: 15%;
+  transition: all 0.3s ease-in-out;
+}
+
+.source-code:hover {
+  height: 40px;
+  width: 190px;
+  font-weight: 600;
+  animation: flicker 1s infinite;
+}
