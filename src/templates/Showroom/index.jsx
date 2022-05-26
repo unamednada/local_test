@@ -1,17 +1,20 @@
 import './Showroom.css';
 import { Spotlight } from '../../components';
-import { projects } from '../../service/mockSpotlightDB';
+import projects from '../../service/mockProjectsDB';
 
 function Showroom() {
   return (
     <div className="showroom" data-testid="showroom">
       <div className="showroom-main">
-        <Spotlight
-          title={ projects.title }
-          className={ projects.className }
-        >
-          { projects.children }
-        </Spotlight>
+        { projects.map((project, index) => (
+          <Spotlight
+            title={ project.title }
+            className={ project.className }
+            key={ index }
+          >
+            { project.children }
+          </Spotlight>
+        )) }
       </div>
     </div>
   );
