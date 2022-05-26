@@ -107,14 +107,14 @@
   margin: 8px 0;
 }
 
-.nav a[href="/projects"] {
+.nav a[href="#/projects"] {
   margin-right: 30%;
   transition: all 0.8s ease-in-out;
   opacity: 0.6;
   height: 80px;
 }
 
-.nav a[href="/projects"]:hover {
+.nav a[href="#/projects"]:hover {
   margin-right: 0;
   font-size: 1.8rem;
   font-weight: 600;
@@ -123,7 +123,7 @@
   margin-bottom: 7%;
 }
 
-.nav a[href="/contact"] {
+.nav a[href="#/contact"] {
   margin-left: 30%;
   transition: all 0.8s ease-in-out;
   opacity: 0.6;
@@ -131,7 +131,7 @@
   margin-bottom: 0;
 }
 
-.nav a[href="/contact"]:hover {
+.nav a[href="#/contact"]:hover {
   margin-left: 0;
   font-size: 1.8rem;
   font-weight: 600;
