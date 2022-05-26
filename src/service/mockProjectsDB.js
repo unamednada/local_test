@@ -18,10 +18,17 @@ const parentAnchor = createElement('a', {
   rel: 'noopener noreferrer',
 }, anchorChildren);
 
+const sourceCode = createElement('a', {
+  href: 'https://github.com/unamednada/pixel-art',
+  target: '_blank',
+  rel: 'noopener noreferrer',
+  className: 'source-code',
+}, 'source code');
+
 const projects = [
   {
     title: 'Pixel Art',
-    children: [parentAnchor],
+    children: [parentAnchor, sourceCode],
     className: 'projects',
   },
 ];
