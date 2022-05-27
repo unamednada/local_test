@@ -33,28 +33,28 @@
 .frontend .stack-content {
   position: absolute;
   font-size: 1.5rem;
-  bottom: 48.5%;
+  bottom: 49.5%;
   left: 5.5%;
 }
 
 .backend .stack-content {
   position: absolute;
   font-size: 1.5rem;
-  bottom: 36.5%;
+  bottom: 37.5%;
   left: 5.5%;
 }
 
 .testing .stack-content {
   position: absolute;
   font-size: 1.5rem;
-  bottom: 24.4%;
+  bottom: 25.4%;
   left: 5.5%;
 }
 
 .cloud .stack-content {
   position: absolute;
   font-size: 1.5rem;
-  bottom: 12.2%;
+  bottom: 13.2%;
   left: 5.5%;
 }
 
