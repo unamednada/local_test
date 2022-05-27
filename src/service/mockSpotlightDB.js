@@ -54,8 +54,21 @@ const nav = {
   className: 'nav',
 };
 
+const meetingContentChildren = [
+  (createElement('h4', { key: 0 }, 'I\'m looking forward to collaborate with you!')),
+];
+
+const meeting = {
+  title: 'meet me',
+  children: [
+    createElement('div', { key: 0, className: 'meeting-content' }, meetingContentChildren),
+  ],
+  className: 'meet-card',
+};
+
 export {
   aboutMe,
   projects,
   nav,
+  meeting,
 };

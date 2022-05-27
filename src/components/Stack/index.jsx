@@ -3,7 +3,7 @@ import './Stack.css';
 
 function Stack({ icons, content }) {
   return (
-    <div className={ `banner-stack-icons ${content}` }>
+    <div className={ `stack-icons ${content}` }>
       {icons.map((icon, index) => (
         <img key={ index } src={ icon === 'chai' ? './images/chai.svg' : `./images/${icon}.png` } alt={ `icon-${icon}` } />
       ))}

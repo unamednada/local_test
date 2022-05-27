@@ -15,9 +15,12 @@
   justify-content: center;
 }
 
-.meeting-main-left {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: flex-end;
+.meet-card {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.meet-card:hover {
+  width: 93%;
+  margin-left: 2.5%;
 }
