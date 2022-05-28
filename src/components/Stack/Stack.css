@@ -2,9 +2,10 @@
   margin: 0 0 6% 8%;
   height: 150px;
   width: 600px;
-  justify-self: flex-start;
-  align-self: flex-start;
+  align-self: center;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .stack-main:hover {
@@ -15,8 +16,6 @@
   transition: all 0.5s ease-in-out;
   color: silver;
   font-weight: 600;
-  padding: 0.8%;
-  height: 160px;
 }
 
 .stack-icons {
@@ -25,7 +24,6 @@
   flex-direction: row;
   opacity: 0.5;
 }
-
 
 .stack-icons img {
   width: 100px;
@@ -36,28 +34,12 @@
 
 .stack-content {
   font-size: 1.5rem;
+  transition: all 0.3s ease-in-out;
+  align-self: flex-start;
+  margin-left: 2%; 
 }
 
-.frontend:hover {
+.stack-content:hover {
   opacity: 1;
   z-index: 1;
-  background-color: black;
-}
-
-.backend:hover {
-  opacity: 1;
-  z-index: 1;
-  background-color: black;
-}
-
-.testing:hover {
-  opacity: 1;
-  z-index: 1;
-  background-color: black;
-}
-
-.cloud:hover {
-  opacity: 1;
-  z-index: 1;
-  background-color: black;
 }
