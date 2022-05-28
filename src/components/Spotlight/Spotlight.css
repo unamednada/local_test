@@ -35,8 +35,6 @@
   0 0 82px silver;
   transition: all 0.5s ease-in-out; 
   background-color: black;
-  width: 520px;
-  height: 520px;
   opacity: 1;
 }
 
@@ -120,7 +118,6 @@
   font-weight: 600;
   animation: flicker 1s infinite alternate;
   letter-spacing: 0.5rem;
-  margin-bottom: 7%;
 }
 
 .nav a[href="#/contact"] {
@@ -140,14 +137,7 @@
 }
 
 .nav #or {
-  position: absolute;
-  left: 75%;
-  bottom: 12%;
   font-size: 2rem;
   font-weight: 500;
   opacity: 0.3;
-}
-
-.nav:hover {
-  height: 160px;
 }
