@@ -48,7 +48,7 @@ const nav = {
   title: 'like what you see?',
   children: [
     (createElement('a', { key: 0, href: '#/projects' }, navAnchorText[0])),
-    (createElement('div', { key: 1, id: 'or' }, 'or')),
+    (createElement('h4', { key: 1, id: 'or' }, 'or')),
     (createElement('a', { key: 2, href: '#/contact' }, navAnchorText[1])),
   ],
   className: 'nav',
