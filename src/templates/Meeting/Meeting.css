@@ -13,16 +13,12 @@
   background-color: black;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .meet-card {
-  width: 90%;
+  width: 40%;
   margin-left: 5%;
-}
-
-.meet-card:hover {
-  width: 93%;
-  margin-left: 2.5%;
 }
 
 .meeting .social {
