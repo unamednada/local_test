@@ -30,32 +30,9 @@
   margin: 1%;
 }
 
-.frontend .stack-content {
-  position: absolute;
+.stack-content {
   font-size: 1.5rem;
-  bottom: 49.5%;
-  left: 5.5%;
-}
-
-.backend .stack-content {
-  position: absolute;
-  font-size: 1.5rem;
-  bottom: 37.5%;
-  left: 5.5%;
-}
-
-.testing .stack-content {
-  position: absolute;
-  font-size: 1.5rem;
-  bottom: 25.4%;
-  left: 5.5%;
-}
-
-.cloud .stack-content {
-  position: absolute;
-  font-size: 1.5rem;
-  bottom: 13.2%;
-  left: 5.5%;
+  position: relative;
 }
 
 .frontend:hover {
