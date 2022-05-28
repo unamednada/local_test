@@ -1,17 +1,13 @@
-.stack-icons {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-self: flex-start;
-  justify-self: flex-start;
-  border-radius: 20px;
-  width: 600px;
+.stack-main {
   margin: 0 0 6% 8%;
-  opacity: 0.5;
   height: 150px;
+  width: 600px;
+  justify-self: flex-start;
+  align-self: flex-start;
+  border-radius: 20px;
 }
 
-.stack-icons:hover {
+.stack-main:hover {
   box-shadow: 0 0 10px #fff,
   0 0 12px #fff,
   0 0 14px #fff,
@@ -23,6 +19,14 @@
   height: 160px;
 }
 
+.stack-icons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  opacity: 0.5;
+}
+
+
 .stack-icons img {
   width: 100px;
   height: 100px;
@@ -32,7 +36,6 @@
 
 .stack-content {
   font-size: 1.5rem;
-  position: relative;
 }
 
 .frontend:hover {
