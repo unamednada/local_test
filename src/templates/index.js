@@ -1,9 +1,9 @@
 import Banner from './Banner';
 import Showroom from './Showroom';
-
-export default function index() {}
+import Meeting from './Meeting';
 
 export {
   Banner,
   Showroom,
+  Meeting,
 };

@@ -3,10 +3,12 @@ import './Stack.css';
 
 function Stack({ icons, content }) {
   return (
-    <div className={ `banner-stack-icons ${content}` }>
-      {icons.map((icon, index) => (
-        <img key={ index } src={ icon === 'chai' ? './images/chai.svg' : `./images/${icon}.png` } alt={ `icon-${icon}` } />
-      ))}
+    <div className={ `stack-main ${content}` }>
+      <div className={ `stack-icons ${content}` }>
+        {icons.map((icon, index) => (
+          <img key={ index } src={ icon === 'chai' ? './images/chai.svg' : `./images/${icon}.png` } alt={ `icon-${icon}` } />
+        ))}
+      </div>
       <div className="stack-content">{ `${content}` }</div>
     </div>
   );

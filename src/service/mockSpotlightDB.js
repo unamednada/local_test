@@ -48,14 +48,27 @@ const nav = {
   title: 'like what you see?',
   children: [
     (createElement('a', { key: 0, href: '#/projects' }, navAnchorText[0])),
-    (createElement('div', { key: 1, id: 'or' }, 'or')),
+    (createElement('h4', { key: 1, id: 'or' }, 'or')),
     (createElement('a', { key: 2, href: '#/contact' }, navAnchorText[1])),
   ],
   className: 'nav',
+};
+
+const meetingContentChildren = [
+  (createElement('h4', { key: 0 }, 'I\'m looking forward to collaborate with you!')),
+];
+
+const meeting = {
+  title: 'meet me',
+  children: [
+    createElement('div', { key: 0, className: 'meeting-content' }, meetingContentChildren),
+  ],
+  className: 'meet-card',
 };
 
 export {
   aboutMe,
   projects,
   nav,
+  meeting,
 };
