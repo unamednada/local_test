@@ -1,6 +1,6 @@
 import './Meeting.css';
 import { Spotlight, Stack } from '../../components';
-import { frontEnd } from '../../service/mockStackDB';
+import { social } from '../../service/mockStackDB';
 import { meeting } from '../../service/mockSpotlightDB';
 
 function Meeting() {
@@ -13,7 +13,7 @@ function Meeting() {
         >
           { meeting.children }
         </Spotlight>
-        <Stack icons={ frontEnd } content="social" />
+        <Stack icons={ social } content="social" />
       </div>
     </div>
   );
