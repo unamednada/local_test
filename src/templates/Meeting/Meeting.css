@@ -13,18 +13,24 @@
   background-color: black;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .meet-card {
-  width: 90%;
+  width: 40%;
   margin-left: 5%;
-}
-
-.meet-card:hover {
-  width: 93%;
-  margin-left: 2.5%;
 }
 
 .meeting .social {
   margin: auto 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.meeting .social:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+.meeting-content {
+  color: silver;
 }

@@ -30,9 +30,18 @@ const cloud = [
   'github-actions',
 ];
 
+const social = [
+  'github',
+  'linkedin',
+  'stackoverflow',
+  'hackerrank',
+  'codecademy',
+];
+
 export {
   frontEnd,
   backEnd,
   testing,
   cloud,
+  social,
 };
