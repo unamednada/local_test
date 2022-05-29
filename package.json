@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "dotenv": "^16.0.1",
     "eslint-config-trybe-frontend": "^1.2.3",
     "jest-dom": "^4.0.0",
     "node-mailjet": "^3.4.1",
