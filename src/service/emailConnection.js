@@ -1,4 +1,4 @@
-require('dotenv');
+require('dotenv').config();
 const mailjet = require ('node-mailjet')
 .connect(process.env.MAIL_TOKEN, process.env.MAIL_KEY);
 
