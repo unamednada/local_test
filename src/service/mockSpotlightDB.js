@@ -1,4 +1,5 @@
 import { createElement } from 'react';
+import { Email } from '../components';
 
 const aboutMeText = [
   'A soon to be fullstack developer with a background in systems\'. I\'m currently studying Systems\' Analysis and Development at University. I love coding and my most recent professional experiences have been with the development of web applications.',
@@ -55,6 +56,7 @@ const nav = {
 };
 
 const meetingContentChildren = [
+  (<Email key={ 0 } />),
   (createElement('h4', { key: 0 }, 'I\'m looking forward to collaborate with you!')),
 ];
 
