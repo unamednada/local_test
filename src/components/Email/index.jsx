@@ -14,18 +14,18 @@ function Email() {
           type="email"
           name="email"
           id="email"
-          placeholder="Email"
+          placeholder="email"
           value={ email }
           onChange={ ({ target: { value } }) => setEmail(value) }
         />
         <textarea
           name="message"
           id="message"
-          placeholder="Message"
+          placeholder="message"
           value={ message }
           onChange={ ({ target: { value } }) => setMessage(value) }
         />
-        <a href={ mailTo }><button type="button">Send</button></a>
+        <a href={ mailTo }><button type="button">send</button></a>
       </form>
     </div>
   );

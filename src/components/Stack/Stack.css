@@ -6,6 +6,7 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+  opacity: 0.6;
 }
 
 .stack-main:hover {
@@ -14,15 +15,15 @@
   0 0 14px #fff,
   0 0 16px #fff;
   transition: all 0.5s ease-in-out;
-  color: silver;
+  color: #fff;
   font-weight: 600;
+  opacity: 1;
 }
 
 .stack-icons {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  opacity: 0.5;
 }
 
 .stack-icons img {
@@ -40,6 +41,6 @@
 }
 
 .stack-content:hover {
-  opacity: 1;
+  opacity: 1 !important;
   z-index: 1;
 }

@@ -57,7 +57,7 @@ const nav = {
 
 const meetingContentChildren = [
   (<Email key={ 0 } />),
-  (createElement('h4', { key: 0 }, 'if you can\'t use mailto links, copy my email here:')),
+  (createElement('h4', { key: 0 }, 'if the button above doesn\'t work, copy my email here:')),
 ];
 
 const meeting = {
