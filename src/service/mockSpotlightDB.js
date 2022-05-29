@@ -59,7 +59,7 @@ const meetingContentChildren = [
 ];
 
 const meeting = {
-  title: 'meet me',
+  title: 'mail me',
   children: [
     createElement('div', { key: 0, className: 'meeting-content' }, meetingContentChildren),
   ],
