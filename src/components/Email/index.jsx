@@ -5,14 +5,11 @@ function Email() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  const submit = (event) => {
-    event.preventDefault();
-    console.log(email, message);
-  };
+  const mailTo = `mailto:dias.gustavo.dias@gmail.com?from=${email}&body=${message}`;
 
   return (
     <div className="email-main">
-      <form onSubmit={ submit }>
+      <form>
         <input
           type="email"
           name="email"
@@ -28,7 +25,7 @@ function Email() {
           value={ message }
           onChange={ ({ target: { value } }) => setMessage(value) }
         />
-        <button type="submit">Send</button>
+        <a href={ mailTo }><button type="button">Send</button></a>
       </form>
     </div>
   );

@@ -38,8 +38,12 @@
   cursor: text;
 }
 
-.email-main form button {
+.email-main form a {
   width: 60%;
+}
+
+.email-main form button {
+  width: 100%;
   height: 50px;
   border: none;
   border-radius: 5px;
