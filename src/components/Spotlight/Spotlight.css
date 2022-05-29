@@ -149,4 +149,7 @@
 
 .meet-card:focus-within {
   opacity: 1;
+  box-shadow: 0 0 5px #fff,
+  0 0 8px #fff,
+  0 0 10px #fff;
 }
