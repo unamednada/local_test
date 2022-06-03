@@ -1,8 +1,6 @@
 import { createElement } from 'react';
 import { getData } from '../utils/APIRequest';
 
-const projects = getData('/projects');
-
 const createProject = (project) => {
   const {
     title,
@@ -19,7 +17,7 @@ const createProject = (project) => {
   ];
 
   const anchorChildren = [
-    (createElement('img', { key: 0, src: image, alt: `${title}-preview` })),
+    (createElement('img', { key: 0, src: `./images/projects/${image}.png`, alt: `${title}-preview` })),
     (createElement('hr')),
     (createElement('h4', { key: 1 }, projectsText[0])),
     (createElement('p', { key: 2 }, projectsText[1])),
@@ -45,6 +43,10 @@ const createProject = (project) => {
   };
 };
 
-projectElements = projects.map(createProject);
+const getProjects = async () => {
+  const projects = await (await getData('/projects')).data;
+  const projectElements = projects.map(createProject);
+  return projectElements;
+};
 
-export default projectElements;
+export default getProjects;
