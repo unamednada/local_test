@@ -13,7 +13,7 @@ function Meeting() {
         >
           { meeting.children }
         </Spotlight>
-        <Stack icons={ social } content="social" />
+        <Stack icons={ Object.keys(social) } content="social" links={ Object.values(social) } />
       </div>
     </div>
   );

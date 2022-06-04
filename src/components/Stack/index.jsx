@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import './Stack.css';
 
-function Stack({ icons, content }) {
+function Stack({ icons, content, links }) {
   return (
     <div className={ `stack-main ${content}` }>
       <div className={ `stack-icons ${content}` }>
@@ -17,6 +17,11 @@ function Stack({ icons, content }) {
 Stack.propTypes = {
   icons: PropTypes.arrayOf(PropTypes.string).isRequired,
   content: PropTypes.string.isRequired,
+  links: PropTypes.arrayOf(PropTypes.string),
 };
+
+Stack.defaultProps = {
+  links: [],
+}
 
 export default Stack;

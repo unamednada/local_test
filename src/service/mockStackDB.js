@@ -31,11 +31,11 @@ const cloud = [
 ];
 
 const social = [
-  'github',
-  'linkedin',
-  'stackoverflow',
-  'hackerrank',
-  'codecademy',
+  { 'github': 'https://github.com/unamednada' },
+  { 'linkedin': 'https://www.linkedin.com/in/unamednada/' },
+  { 'stackoverflow': 'https://stackoverflow.com/users/16335018/unamednada' },
+  { 'hackerrank': 'https://www.hackerrank.com/dias_gustavo_di1?hr_r=1' },
+  { 'codecademy': 'https://www.codecademy.com/profiles/unamednada' },
 ];
 
 export {
