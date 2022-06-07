@@ -1,9 +1,16 @@
+import { useEffect, useState } from 'react';
 import './Showroom.css';
 import { Spotlight } from '../../components';
-import projects from '../../service/mockProjectsDB';
+import getProjects from '../../service/projectsDB';
 
 function Showroom() {
-  return (
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    getProjects().then((data) => setProjects(data));
+  });
+
+  return projects && (
     <div className="showroom" data-testid="showroom">
       <div className="showroom-main">
         { projects.map((project, index) => (

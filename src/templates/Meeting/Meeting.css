@@ -23,14 +23,17 @@
 
 .meeting .social {
   margin: auto 0;
-  transition: all 0.2s ease-in-out;
-}
-
-.meeting .social:hover {
-  opacity: 1;
-  color: #fff;
+  padding-bottom: 0.5%;
 }
 
 .meeting-content {
   color: silver;
+}
+
+.social {
+  padding: 0.3%;
+}
+
+img {
+  cursor: pointer !important;
 }
