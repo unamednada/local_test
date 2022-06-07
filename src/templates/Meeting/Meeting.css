@@ -29,3 +29,11 @@
 .meeting-content {
   color: silver;
 }
+
+.social {
+  padding: 0.3%;
+}
+
+img {
+  cursor: pointer !important;
+}
