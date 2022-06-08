@@ -22,7 +22,7 @@ const projectsText = [
 ];
 
 const anchorChildren = [
-  (createElement('img', { key: 0, src: './images/pixel-art.png', alt: 'project-preview' })),
+  (createElement('img', { key: 0, src: './images/projects/pixel-art.png', alt: 'project-preview' })),
   (createElement('hr')),
   (createElement('h4', { key: 1 }, projectsText[0])),
   (createElement('p', { key: 2 }, projectsText[1])),
