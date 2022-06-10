@@ -68,9 +68,24 @@ const meeting = {
   className: 'meet-card',
 };
 
+const loadingContentChildren = [
+  createElement('hr'),
+  createElement('h3', { key: 0 }, 'This section is fed with data from an API. Please wait...'),
+  createElement('a', { key: 0, target: '_blank', href: 'https://github.com/unamednada/portfolio-backend' }, 'click here to see the API'),
+];
+
+const loading = {
+  title: 'loading',
+  children: [
+    createElement('div', { key: 0, className: 'loading-content' }, loadingContentChildren),
+  ],
+  className: 'loading',
+};
+
 export {
   aboutMe,
   projects,
   nav,
   meeting,
+  loading,
 };
