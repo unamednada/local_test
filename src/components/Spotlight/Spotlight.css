@@ -153,3 +153,52 @@
   0 0 8px #fff,
   0 0 10px #fff;
 }
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading h2 {
+  animation: blink 1.5s infinite;
+}
+
+.loading h3 {
+  color: silver;
+  margin: 12% auto;
+}
+
+.loading a {
+  color: silver;
+  border-radius: 8px;
+  box-shadow: 0 0 5px silver,
+  0 0 8px silver,
+  0 0 10px silver;
+  padding: 0.5rem;
+}
+
+.loading a:hover {
+  color: #fff;
+  box-shadow: 0 0 5px #fff,
+  0 0 8px #fff,
+  0 0 10px #fff;
+  text-shadow: 0 0 3px #fff,
+  0 0 6px #fff,
+  0 0 7px #fff;
+  transition: all 0.5s ease-in-out;
+  font-weight: 800;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
