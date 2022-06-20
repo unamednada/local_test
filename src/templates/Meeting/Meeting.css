@@ -37,3 +37,7 @@
 .social img {
   cursor: pointer !important;
 }
+
+.social img:hover {
+  opacity: 0.5;
+}
