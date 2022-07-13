@@ -13,7 +13,22 @@ function Banner() {
 
   useEffect(() => {
     getProjects()
-      .then((data) => setSpotLight(data[data.length - 1]))
+      .then((data) => {
+        const { title, className, children } = data[data.length - 1];
+        
+        const { anchorChildren } = children[0];
+        const spotlightChildren = anchorChildren.slice(0, 3);
+
+        children[0].anchorChildren = spotlightChildren;
+
+        const spotlight = {
+          title,
+          className,
+          children,
+        }
+        
+        setSpotLight(spotlight);
+      })
       .then(() => setTimeout(() => setIsLoading(false), THREE_SECONDS));
   });
 
@@ -45,7 +60,7 @@ function Banner() {
             { aboutMe.children }
           </Spotlight>
           <Spotlight
-            title={ isLoading ? loading.title : spotLight.title }
+            title={ isLoading ? loading.title : "Spotlight" }
             className={ isLoading ? loading.className : spotLight.className }
           >
             { isLoading ? loading.children : spotLight.children }
