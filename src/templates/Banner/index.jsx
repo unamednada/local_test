@@ -1,9 +1,22 @@
 import './Banner.css';
 import { frontEnd, backEnd, testing, cloud } from '../../service/mockStackDB';
 import { Stack, Spotlight } from '../../components';
-import { aboutMe, projects, nav } from '../../service/mockSpotlightDB';
+import { aboutMe, loading, nav } from '../../service/mockSpotlightDB';
+import { useState } from 'react';
+import { getProjects } from '../../service/projectsDB';
 
 function Banner() {
+  const [spotLight, setSpotLight] = useState({});
+  const [isLoading, setIsLoading] = useState(true);
+
+  const THREE_SECONDS = 3000;
+
+  useEffect(() => {
+    getProjects()
+      .then((data) => setSpotLight(data[data.length - 1]))
+      .then(() => setTimeout(() => setIsLoading(false), THREE_SECONDS));
+  });
+
   return (
     <div
       className="banner"
@@ -32,10 +45,10 @@ function Banner() {
             { aboutMe.children }
           </Spotlight>
           <Spotlight
-            title={ projects.title }
-            className={ projects.className }
+            title={ isLoading ? loading.title : spotLight.title }
+            className={ isLoading ? loading.className : spotLight.className }
           >
-            { projects.children }
+            { isLoading ? loading.children : spotLight.children }
           </Spotlight>
           <Spotlight
             title={ nav.title }
