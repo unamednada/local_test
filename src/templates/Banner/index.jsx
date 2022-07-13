@@ -15,22 +15,21 @@ function Banner() {
     getProjects()
       .then((data) => {
         const { title, className, children } = data[data.length - 1];
-        
-        const { anchorChildren } = children[0];
-        const spotlightChildren = anchorChildren.slice(0, 3);
 
-        children[0].anchorChildren = spotlightChildren;
+        const paragraph = children[0].props.children[2].props.children;
+        delete children[0].props.children[3];
+        children[0].props.children[1] = <h4>{title}</h4>;
+        children[0].props.children[2] = <p>{paragraph}</p>;
 
         const spotlight = {
-          title,
           className,
           children,
-        }
-        
+        };
+
         setSpotLight(spotlight);
       })
       .then(() => setTimeout(() => setIsLoading(false), THREE_SECONDS));
-  });
+  }, []);
 
   return (
     <div
@@ -60,7 +59,7 @@ function Banner() {
             { aboutMe.children }
           </Spotlight>
           <Spotlight
-            title={ isLoading ? loading.title : "Spotlight" }
+            title={ isLoading ? loading.title : 'Spotlight' }
             className={ isLoading ? loading.className : spotLight.className }
           >
             { isLoading ? loading.children : spotLight.children }
