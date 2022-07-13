@@ -3,7 +3,7 @@ import { frontEnd, backEnd, testing, cloud } from '../../service/mockStackDB';
 import { Stack, Spotlight } from '../../components';
 import { aboutMe, loading, nav } from '../../service/mockSpotlightDB';
 import { useState } from 'react';
-import { getProjects } from '../../service/projectsDB';
+import getProjects from '../../service/projectsDB';
 
 function Banner() {
   const [spotLight, setSpotLight] = useState({});
