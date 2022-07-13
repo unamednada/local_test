@@ -1,2 +1,5 @@
 reportWebVitals.js
 src/router/Router.jsx
+build/
+coverage/
+tests/

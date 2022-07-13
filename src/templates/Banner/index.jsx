@@ -1,8 +1,8 @@
 import './Banner.css';
-import { frontEnd, backEnd, testing, cloud } from '../../service/mockStackDB';
+import { useState } from 'react';
 import { Stack, Spotlight } from '../../components';
 import { aboutMe, loading, nav } from '../../service/mockSpotlightDB';
-import { useState } from 'react';
+import { frontEnd, backEnd, testing, cloud } from '../../service/mockStackDB';
 import getProjects from '../../service/projectsDB';
 
 function Banner() {
