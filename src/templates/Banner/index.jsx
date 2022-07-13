@@ -1,5 +1,5 @@
 import './Banner.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Stack, Spotlight } from '../../components';
 import { aboutMe, loading, nav } from '../../service/mockSpotlightDB';
 import { frontEnd, backEnd, testing, cloud } from '../../service/mockStackDB';
